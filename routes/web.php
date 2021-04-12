@@ -26,4 +26,4 @@ Route::get('halo', function () {
 Route::get('register','Register@index');
 Route::get('login','Login@index');
 Route::get('dashboard','Dashboard@index');
-Route::get('merchantpage','Merchantpage@index');
+Route::get('pilihmerchant','Pilihmerchant@index');
