@@ -13,7 +13,7 @@
   <link rel="stylesheet" type ="text/css" href="{{ asset('assets/images')}}">
 </head>
 <body>
-    @include('templates.header2')
+    @yield('header')
 	<!-- bagian judul halaman blog -->
 	  @yield('isi_page')
     @include('templates.footer')

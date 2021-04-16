@@ -1,7 +1,12 @@
 @extends('templates.master')
 
+@section('header')
+  @include('templates.header3')
+@endsection
+
 @section('isi_page')
     <!-- Jumbotron -->
+  <div class="page-wrapper">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h2 class="display-4">
@@ -108,5 +113,6 @@
         </div>
 
     </div>
+    <div class="page-wrapper">
     <!-- End Container -->   
-<!-- @endsection -->
+@endsection

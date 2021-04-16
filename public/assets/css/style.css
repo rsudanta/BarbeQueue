@@ -1,4 +1,5 @@
-body {
+html,body {
+    height: 100%;
     font-family: Spartan;
     font-style: normal;
     color: #000000;
@@ -36,6 +37,25 @@ body {
     top: 0;
     border-radius: 100px/10px;
 }
+.page-wrapper{
+    min-height: 100%;
+}
+.arrow {
+    position: absolute;
+    border: solid black;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 4%;
+    border-radius: 0 6px 6px 6px;
+  }
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
 /*form register*/
 p.txt-register {
     position: absolute;
@@ -181,21 +201,24 @@ input[type="submit"]:hover {
 }
 /*footer*/
 .footerBbq {
-    position: absolute;
+    position: relative;
     height: 350px;
-    top: 788px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-top: auto;
     padding: 4%;
 
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
 
-    background: linear-gradient(98.68deg, #263825 10.4%, #8fbf8d 183.17%);
+    background: linear-gradient(98.68deg, #263825 10.4%, #8FBF8D 183.17%);
 }
 .copyright {
     position: absolute;
     height: 2px;
-    width: 80%;
+    width: 90%;
     margin-top: 15%;
     margin-left: 2%;
 
@@ -217,4 +240,34 @@ input[type="submit"]:hover {
         width: 100%;
         margin-top: 0;
     }
+}
+/*Merchant Page*/
+.cont-dMerchant{
+    width: 754px;
+    margin-top: 114px;
+    margin-bottom: 114px;
+
+    font-size: 14px;
+    text-align: justify;
+    align-items: center;    
+}
+p.txt-merchantName{
+    font-size: 24px; 
+    font-weight: 800;
+    margin-bottom: 7%;
+}
+.btn-ambilAntrian{
+    width: 211px;
+    height: 36px;
+
+    background: #3F5D3D;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-ambilAntrian:hover{
+    background-color: #45a049;
 }

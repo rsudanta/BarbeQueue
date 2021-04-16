@@ -1,5 +1,4 @@
 <div class="container-fluid footerBbq">
-    <div class="container">
         <div class="row">
             <div class="col-sm-8">
              <a style="font-family:Passion One; font-size:64px">
@@ -33,5 +32,4 @@
             <p style="margin-top:24px">&copy 2021 BarbeQueue | Danta’s Angels . All Right Reserved</p>    
             </div>
         </div>
-    </div>
 </div>
