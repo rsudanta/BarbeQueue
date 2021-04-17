@@ -1,0 +1,117 @@
+html {
+  overflow-x: hidden;
+}
+
+html p {
+  margin-bottom: 0px;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+.navbar {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 83px;
+}
+
+.navbar .nav-item {
+  margin-left: 30px;
+}
+
+.navbar .nav-item p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.container-fluid {
+  background: url(/public/assets/images/hero.png) right top no-repeat;
+  height: 775px;
+}
+
+.hero {
+  padding-top: 200px;
+}
+
+.btn-barbequeue {
+  min-width: 198px;
+  background: #8fbf8d;
+  -webkit-box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.btn-barbequeue p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff !important;
+}
+
+.btn-barbequeue:hover {
+  background-color: #3f5d3d;
+}
+
+section {
+  padding-top: 250px;
+}
+
+.title {
+  font-family: Passion One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 144px;
+  line-height: 159px;
+  color: #263825;
+}
+
+.hero p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  color: #000000;
+}
+
+section h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.section-carakerja .card {
+  padding: 60px 15px;
+  background: #ffffff;
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.section-carakerja .card img {
+  height: 200px;
+}
+
+.section-testimoni .card {
+  margin: 10px;
+  padding: 40px 60px;
+  background: #ffffff;
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.splide__pagination{
+  padding: 10px !important;
+}
+
+.splide__pagination__page.is-active {
+  color: black !important;
+  transform: scale(1.4);
+  background: black !important;
+}
+/*# sourceMappingURL=landing-page.css.map */
