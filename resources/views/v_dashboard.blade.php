@@ -21,7 +21,7 @@
     <!-- End Jumbotron -->
 
     <!-- Container -->
-    <div class="container space">
+    <div class="container">
         <!-- Panel -->
         <div class="row justify-content-center">
         <div class="col-5 info-panel">
@@ -44,69 +44,85 @@
         
         <div class="row daftar">
           <div class="col-md-3 mb-3">
-            <div class="card" style="width: 13rem">
+            <div class="card " style="width: 13rem">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko1" />
-              <div class="card-body text-center">
-                <p class="card-text">Kecantikan</p>
+              <div class="card-body ">
+                <p class="card-title">Kecantikan</p>
+                <p class="card-text">Rawat indahnya wajahmu!</p>
+                <p class="card-text1">4 Stores Available</p>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko2" />
-              <div class="card-body text-center">
-                <p class="card-text">Kecantikan</p>
+              <div class="card-body ">
+              <p class="card-title">Kecantikan</p>
+                <p class="card-text">Rawat indahnya wajahmu!</p>
+                <p class="card-text1">4 Stores Available</p>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko3" />
-              <div class="card-body text-center">
-                <p class="card-text">Kecantikan</p>
+              <div class="card-body ">
+              <p class="card-title">Kecantikan</p>
+                <p class="card-text">Rawat indahnya wajahmu!</p>
+                <p class="card-text1">4 Stores Available</p>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko4" />
-              <div class="card-body text-center">
-                <p class="card-text">Kecantikan</p>
+              <div class="card-body ">
+              <p class="card-title">Kecantikan</p>
+                <p class="card-text">Rawat indahnya wajahmu!</p>
+                <p class="card-text1">4 Stores Available</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="row daftar">
+        <div class="row daftarbawah">
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko1" />
-              <div class="card-body text-center">
-                <p class="card-text">Kecantikan</p>
+              <div class="card-body ">
+              <p class="card-title">Kecantikan</p>
+                <p class="card-text">Rawat indahnya wajahmu!</p>
+                <p class="card-text1">4 Stores Available</p>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko2" />
-              <div class="card-body text-center">
-                <p class="card-text">Kecantikan</p>
+              <div class="card-body ">
+              <p class="card-title">Kecantikan</p>
+                <p class="card-text">Rawat indahnya wajahmu!</p>
+                <p class="card-text1">4 Stores Available</p>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko3" />
-              <div class="card-body text-center">
-                <p class="card-text">Kecantikan</p>
+              <div class="card-body ">
+              <p class="card-title">Kecantikan</p>
+                <p class="card-text">Rawat indahnya wajahmu!</p>
+                <p class="card-text1">4 Stores Available</p>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko4" />
-              <div class="card-body text-center">
-                <p class="card-text">Kecantikan</p>
+              <div class="card-body ">
+              <p class="card-title">Kecantikan</p>
+                <p class="card-text">Rawat indahnya wajahmu!</p>
+                <p class="card-text1">4 Stores Available</p>
               </div>
             </div>
           </div>
