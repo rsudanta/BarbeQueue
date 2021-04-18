@@ -25,3 +25,4 @@ Route::get('login','Login@index');
 Route::get('dashboard','Dashboard@index');
 Route::get('pilihmerchant','Pilihmerchant@index');
 Route::get('merchant','MerchantPage@index');
+Route::get('antrian','AntrianMerchant@index');

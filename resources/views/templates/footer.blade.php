@@ -7,7 +7,7 @@
             </a>
             <p style="padding:1.5%">One Stop Data Antrian Solution. Transform your business better. BarbeQueue simplify everything that looks so complex.</p>
             </div>
-            <div class="col-sm-4" style="padding-left:3.5%">
+            <div class="col-sm-4" style="padding-left:6%">
                 <p style="font-size:24px">Contact Us</p>
                 <div class = "row" style="margin-bottom:3%">
                     <a>

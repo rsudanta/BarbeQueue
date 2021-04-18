@@ -137,6 +137,7 @@ input[type="submit"]:hover {
 
 /* Jumbotron */
 .jumbotron {
+    position: absolute;
     background-color: #263825;
     background-size: cover;
     height: 500px;
@@ -299,4 +300,42 @@ p.txt-merchantName {
     margin-top: 15px;
     margin-left: 50px;
     margin-bottom: 100px;
+}
+/*Antrian Mechant*/
+.txt-merchantA{
+    position: absolute;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 48px;
+    top: 249px;
+
+    text-align: justify;
+}
+.cont-antrian{
+    left: 108px;
+    width: 1223px;
+    margin-top:10%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn-noAntrian{
+    width: 56px;
+    height: 56px;
+
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.row-antrian{
+    justify-content:flex-end; 
+    margin-top: 4%;
+    margin-right:2.3%;
+}
+#datepicker > span:hover{
+    cursor: pointer;
 }
