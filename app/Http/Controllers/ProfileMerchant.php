@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class ProfileMerchant extends Controller
 {
-    function index()
+    public function index()
     {
         $items = Auth::user();
         return view('/', [
@@ -15,7 +15,7 @@ class ProfileMerchant extends Controller
         ]);
     }
 
-    function show()
+    public function show()
     {
         $items = Auth::user();
         return view('/', [
@@ -37,8 +37,9 @@ class ProfileMerchant extends Controller
             // isi dengan nama folder tempat kemana file diupload
             $tujuan_upload = 'storage/avatars';
             $file->move($tujuan_upload, $nama_file);
-        } else
+        } else {
             $nama_file=User::where('id', $id)->value('avatar');
+        }
         $data = [
             'name' => $request->name,
             'avatar' => $nama_file,
@@ -50,4 +51,6 @@ class ProfileMerchant extends Controller
         $item = User::findOrFail($id);
         $item->update($data);
 
-        return redirect()->route('//');}
+        return redirect()->route('//');
+    }
+}
