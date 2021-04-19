@@ -37,22 +37,7 @@ body {
 .page-wrapper {
     min-height: 100%;
 }
-.arrow {
-    position: absolute;
-    border: solid black;
-    border-width: 0 6px 6px 0;
-    display: inline-block;
-    padding: 3px;
-    width: 30px;
-    height: 30px;
-    margin-top: 25px;
-    margin-left: 4%;
-    border-radius: 0 6px 6px 6px;
-}
-.left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-}
+
 /*form register*/
 p.txt-register {
     position: absolute;
@@ -312,11 +297,17 @@ p.txt-merchantName {
 }
 .cont-antrian {
     left: 108px;
-    width: 1223px;
     margin-top: 10%;
     margin-bottom: 10%;
-    font-weight: bold;
-    font-size: 18px;
+    padding-left: 10%;
+    font-size: 14px;
+    display: inline-flexbox;
+}
+.txt-antrianinfo{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 20px;
+    margin-bottom: 5%;
 }
 .btn-noAntrian {
     width: 56px;
@@ -331,7 +322,7 @@ p.txt-merchantName {
     margin-bottom: 20px;
 }
 .row-antrian {
-    justify-content: flex-end;
+    justify-content: left;
     margin-top: 4%;
     margin-right: 2.3%;
 }
@@ -345,4 +336,9 @@ p.txt-merchantName {
     width: 1100px;
     margin-left: 100px;
     border-radius: 50%;
+}
+.txt-path{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8%;
 }

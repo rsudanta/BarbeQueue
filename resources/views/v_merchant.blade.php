@@ -1,13 +1,18 @@
 @extends('templates.master')
 
 @section('header')
-    @include('templates.header3')
+    @include('templates.header2')
 @endsection
 
 @section('isi_page')
 <div class="page-wrapper">
-    <img src="{{asset('assets/images/merchant.png')}}" alt ="Merchant Pic" style="margin-top:84px">
+    <img src="{{asset('assets/images/merchant.png')}}" alt ="Merchant Pic" style="margin-top:84px; width:100%">
     <div class="container cont-dMerchant">
+            <div class="txt-path">
+                <a href="dashboard" style="color: #000000">Dashboard ></a>
+                <a href="pilihmerchant" style="color: #000000">Merchant ></a>
+                <a href="merchant" style="color: #000000">K-Marttt</a>
+            </div>
             <p class="txt-merchantName">K-Mart</p>
             <p>One Stop Data Antrian Solution. Transform your business better. BarbeQueue simplify everything that looks so complex. One Stop Data Antrian Solution. Transform your business better. BarbeQueue simplify everything that looks so complex.</p>
                 <p>Alamat : </p>
