@@ -15,6 +15,35 @@ body {
     font-weight: normal;
     font-size: 40px;
 }
+
+.navbar-brand1 {
+    position: absolute;
+    left: calc(23% - 103px);
+
+    font-family: Passion One;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.tombolnav {
+    position: absolute;
+    width: 32%;
+    height: 36px;
+    margin-left: 260%;
+    margin-top: -16%;
+
+    font-size: 14px;
+    font-weight: 5px;
+    font-family: spartan;
+
+    background-color: #a94949;
+    color: white;
+
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .shadow {
     position: absolute;
     height: 84px;
