@@ -159,6 +159,10 @@ input[type="submit"]:hover {
     font-size: 20px;
 }
 
+.tombol:hover {
+    background-color: #b3b85f;
+}
+
 .tombol1 {
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
@@ -168,6 +172,10 @@ input[type="submit"]:hover {
     background-color: white;
     font-weight: bold;
     font-size: 20px;
+}
+
+.tombol1:hover {
+    background-color: #d6d6d6;
 }
 
 .daftar {
@@ -274,10 +282,8 @@ p.txt-merchantName {
     font-size: 12px;
     margin-top: 0px;
     text-align: right;
-}
-
-.card img {
-    border-radius: 20px;
+    margin-bottom: 0px;
+    color: #5a5a5a;
 }
 
 .daftarbawah {
@@ -285,6 +291,13 @@ p.txt-merchantName {
     margin-left: 50px;
     margin-bottom: 100px;
 }
+
+.gambar img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 /*Antrian Mechant*/
 .txt-merchantA {
     position: absolute;
@@ -303,7 +316,7 @@ p.txt-merchantName {
     font-size: 14px;
     display: inline-flexbox;
 }
-.txt-antrianinfo{
+.txt-antrianinfo {
     font-weight: 600;
     font-size: 36px;
     line-height: 20px;
@@ -337,7 +350,7 @@ p.txt-merchantName {
     margin-left: 100px;
     border-radius: 50%;
 }
-.txt-path{
+.txt-path {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 8%;
