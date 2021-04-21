@@ -15,6 +15,35 @@ body {
     font-weight: normal;
     font-size: 40px;
 }
+
+.navbar-brand1 {
+    position: absolute;
+    left: calc(23% - 103px);
+
+    font-family: Passion One;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.tombolnav {
+    position: absolute;
+    width: 32%;
+    height: 36px;
+    margin-left: 260%;
+    margin-top: -16%;
+
+    font-size: 14px;
+    font-weight: 5px;
+    font-family: spartan;
+
+    background-color: #a94949;
+    color: white;
+
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .shadow {
     position: absolute;
     height: 84px;
@@ -159,6 +188,10 @@ input[type="submit"]:hover {
     font-size: 20px;
 }
 
+.tombol:hover {
+    background-color: #b3b85f;
+}
+
 .tombol1 {
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
@@ -168,6 +201,10 @@ input[type="submit"]:hover {
     background-color: white;
     font-weight: bold;
     font-size: 20px;
+}
+
+.tombol1:hover {
+    background-color: #d6d6d6;
 }
 
 .daftar {
@@ -274,10 +311,8 @@ p.txt-merchantName {
     font-size: 12px;
     margin-top: 0px;
     text-align: right;
-}
-
-.card img {
-    border-radius: 20px;
+    margin-bottom: 0px;
+    color: #5a5a5a;
 }
 
 .daftarbawah {
@@ -285,6 +320,13 @@ p.txt-merchantName {
     margin-left: 50px;
     margin-bottom: 100px;
 }
+
+.gambar img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 /*Antrian Mechant*/
 .txt-merchantA {
     position: absolute;
@@ -303,7 +345,7 @@ p.txt-merchantName {
     font-size: 14px;
     display: inline-flexbox;
 }
-.txt-antrianinfo{
+.txt-antrianinfo {
     font-weight: 600;
     font-size: 36px;
     line-height: 20px;
@@ -337,8 +379,33 @@ p.txt-merchantName {
     margin-left: 100px;
     border-radius: 50%;
 }
-.txt-path{
+.txt-path {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 8%;
+}
+
+/* LP */
+
+.navbar0 {
+    background: #ffffff;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 83px;
+}
+
+.navbar0 .nav-item {
+    margin-left: 30px;
+}
+
+.navbar0 .nav-item p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.container-fluid0 {
+    background: url(/public/assets/images/hero.png) right top no-repeat;
+    height: 775px;
 }

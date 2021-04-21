@@ -23,7 +23,11 @@
       <div class="row daftar">
           <div class="col-md-3 mb-3">
             <div class="card " style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko1" />
+              </a>
+              </div>
               <div class="card-body ">
                 <p class="card-title">K-Marttt</p>
                 <p class="card-text">Ayo Ih disini aja</p>
@@ -33,7 +37,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko2" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">K-Mart</p>
                 <p class="card-text">Nggak, disini ajaaaaaa</p>
@@ -43,7 +51,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko3" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">K-Martttttttt</p>
                 <p class="card-text">Awas aja lo ga kesini</p>
@@ -53,7 +65,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko4" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">K-Lord</p>
                 <p class="card-text">Hadeuuuu capek</p>
@@ -66,7 +82,11 @@
         <div class="row daftarbawah">
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko1" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Hei, Apa Kabar?</p>
                 <p class="card-text">Ayooo kesini</p>
@@ -76,7 +96,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko2" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Toko Ini Aja</p>
                 <p class="card-text">Aku dekat sama kamu</p>
@@ -86,7 +110,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko3" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Ini Toko</p>
                 <p class="card-text">Aduh aku pusing bgt</p>
@@ -96,7 +124,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko4" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Loh Kok</p>
                 <p class="card-text">Eh ini gimana eh</p>

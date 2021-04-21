@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/','LandingPage@index');
 Route::get('dashboard','Dashboard@index');
 Route::get('pilihmerchant','Pilihmerchant@index');
 Route::get('merchant','MerchantPage@index');

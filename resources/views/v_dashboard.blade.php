@@ -1,7 +1,7 @@
 @extends('templates.master')
 
 @section('header')
-  @include('templates.header2')
+  @include('templates.header1')
 @endsection
 
 @section('isi_page')
@@ -43,9 +43,14 @@
 
         
         <div class="row daftar">
+          
           <div class="col-md-3 mb-3">
             <div class="card " style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko1" />
+              </a>
+            </div>
               <div class="card-body ">
                 <p class="card-title">Kecantikan</p>
                 <p class="card-text">Rawat indahnya wajahmu!</p>
@@ -53,9 +58,14 @@
               </div>
             </div>
           </div>
+          
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko2" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Kecantikan</p>
                 <p class="card-text">Rawat indahnya wajahmu!</p>
@@ -65,7 +75,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko3" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Kecantikan</p>
                 <p class="card-text">Rawat indahnya wajahmu!</p>
@@ -75,7 +89,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko4" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Kecantikan</p>
                 <p class="card-text">Rawat indahnya wajahmu!</p>
@@ -88,7 +106,11 @@
         <div class="row daftarbawah">
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko1" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Kecantikan</p>
                 <p class="card-text">Rawat indahnya wajahmu!</p>
@@ -98,7 +120,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko2" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Kecantikan</p>
                 <p class="card-text">Rawat indahnya wajahmu!</p>
@@ -108,7 +134,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko3" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Kecantikan</p>
                 <p class="card-text">Rawat indahnya wajahmu!</p>
@@ -118,7 +148,11 @@
           </div>
           <div class="col-md-3 mb-3">
             <div class="card" style="width: 13rem">
+            <div class="gambar">
+            <a href="">
               <img src="{{asset('assets/images/toko.png')}}" class="card-img-top" alt="toko4" />
+              </a>
+              </div>
               <div class="card-body ">
               <p class="card-title">Kecantikan</p>
                 <p class="card-text">Rawat indahnya wajahmu!</p>
