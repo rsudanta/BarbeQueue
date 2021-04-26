@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Spartan:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" type ="text/css" href="{{ asset('assets/css/style.css')}}">
   <link rel="stylesheet" type ="text/css" href="{{ asset('assets/images')}}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
 <body>
     @yield('header')

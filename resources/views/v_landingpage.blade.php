@@ -1,4 +1,4 @@
-@extends('templates.master')
+@extends('templates.master0')
 
 @section('header')
     @include('templates.header0')
@@ -7,10 +7,10 @@
 @section('isi_page')
 <div class="page-wrapper">
 <div class="container-fluid">
-        <div class="container hero">
+        <div class="container ">
             <div class="row">
-                <div class="col-7">
-                    <img src="/public/assets/images/dec-hero.png" alt="">
+                <div class="col-6 hero">
+                    
                     <h1 class="title">BarbeQueue
                     </h1>
                     <p>Aplikasi Antrian Online</p>
@@ -18,7 +18,8 @@
                         <p>Login</p>
                     </a>
                 </div>
-                <div class="col-5">
+                <div class="col-6 hehe">
+                <img src="{{asset('assets/images/hero.png')}}" alt="">
                 </div>
             </div>
         </div>
@@ -47,22 +48,22 @@
             <div class="row pt-5">
                 <div class="col-3">
                     <div class="card">
-                        <img src="/public/assets/images/1.png" alt="">
+                        <img src="{{asset('assets/images/1.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="card">
-                        <img src="/public/assets/images/2.png" alt="">
+                        <img src="{{asset('assets/images/2.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="card">
-                        <img src="/public/assets/images/3.png" alt="">
+                        <img src="{{asset('assets/images/3.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="card">
-                        <img src="/public/assets/images/4.png" alt="">
+                        <img src="{{asset('assets/images/4.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -143,6 +144,6 @@
                 </div>
             </div>
         </div>
-    </section>    
+    </section>
 </div>
 @endsection

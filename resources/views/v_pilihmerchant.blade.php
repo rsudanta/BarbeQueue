@@ -20,6 +20,13 @@
 
       <!-- Container -->
       <div class="container">
+
+      <section class="section-hal">
+        <div class="container">
+          <h1 class="text-hal"> <a href="">Dashboard</a>  <a href=""> > Merchant</a></h1>
+        </div>
+    </section>
+
       <div class="row daftar">
           <div class="col-md-3 mb-3">
             <div class="card " style="width: 13rem">

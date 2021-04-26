@@ -1,6 +1,7 @@
-<nav class="navbaro navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="{{asset('assets/images/logodanta.png')}}" alt ="Logo" width=79px height=79px ></a>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container">
+            <a class="navbar-brand" href="#"><img src="{{asset('assets/images/logo.png')}}" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,5 +30,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
+            </div>
     </nav>
+</div>
