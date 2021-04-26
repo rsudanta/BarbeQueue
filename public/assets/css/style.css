@@ -76,11 +76,11 @@ p.txt-register {
     font-size: 26px;
 }
 
-input[type="text"],
+.form-reg,
 select,
 textarea {
     padding: 12px;
-    width: 100%;
+    width: 400px;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     resize: vertical;
@@ -96,9 +96,9 @@ label {
 }
 input[type="submit"] {
     position: absolute;
-    width: 21%;
+    width: 10%;
     height: 36px;
-    margin-left: 62%;
+    margin-left: 35.5%;
     margin-top: 30px;
 
     font-weight: 600;
@@ -117,11 +117,11 @@ input[type="submit"]:hover {
 }
 
 .box-register {
-    position: absolute;
     width: 752px;
-    height: 403px;
+    height: 500px;
     left: calc(50% - 360px);
     margin-top: 173px;
+    margin-bottom: 500px;
 
     background: #ffffff;
     padding: 78px;
@@ -399,4 +399,26 @@ p.txt-merchantName {
 
 .section-hal a {
     color: #000000;
+}
+.box-login {
+    width: 752px;
+    height: 403px;
+    left: calc(50% - 360px);
+    margin-top: 173px;
+    margin-bottom: 500px;
+
+    background: #ffffff;
+    padding: 78px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    align-items: flex-start;
+}
+.form-log,
+input[type="text"]{
+    padding: 12px;
+    width: 100%;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    resize: vertical;
+    border: none;
 }

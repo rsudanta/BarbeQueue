@@ -34,7 +34,7 @@
                     <p class="col-sm-9">Tersedia</p>
                 </div>
                 <div class="row" style="justify-content:center; margin-top:8%"> 
-                    <button oncLick="#" class="btn-ambilAntrian">Ambil Antrian</button>
+                    <button oncLick="location.href='antrian';" class="btn-ambilAntrian">Ambil Antrian</button>
                 </div>
     </div>
 </div>

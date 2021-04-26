@@ -6,7 +6,7 @@
 
 @section('isi_page')
 <div class="page-wrapper">
-    <div class="container box-register">
+    <div class="container box-login">
         <form method="POST" action="{{ route('login') }}">
             @csrf
             <div class="row">
@@ -17,7 +17,7 @@
                     <label>Email</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" placeholder="Email" id="email" name="email">
+                    <input type="text" class="form-log" placeholder="Email" id="email" name="email">
                     @error('password')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
@@ -30,7 +30,7 @@
                     <label>Password</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" placeholder="Password" id="password" name="password">
+                    <input type="text" class="form-log" placeholder="Password" id="password" name="password">
                     @error('password')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
@@ -40,7 +40,7 @@
             </div>
 
             <div class="row">
-                <input type="submit" value="Login">
+                <input type="submit" style="margin-left:36.5%" value="Login">
             </div>
 
             <div class="row">
