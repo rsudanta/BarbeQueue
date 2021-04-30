@@ -71,7 +71,7 @@ section {
     font-family: Passion One;
     font-style: normal;
     font-weight: normal;
-    font-size: 144px;
+    font-size: 125px;
     line-height: 159px;
     color: #263825;
 }
@@ -92,6 +92,10 @@ section h1 {
     color: #000000;
 }
 
+.section-about {
+    margin-top: -350px;
+}
+
 .section-carakerja .card {
     padding: 60px 15px;
     background: #ffffff;
@@ -101,6 +105,11 @@ section h1 {
 
 .section-carakerja .card img {
     height: 200px;
+}
+
+.section-testimoni {
+    margin-top: -50px;
+    margin-bottom: 250px;
 }
 
 .section-testimoni .card {
@@ -121,3 +130,36 @@ section h1 {
     background: black !important;
 }
 /*# sourceMappingURL=landing-page.css.map */
+
+/*footer*/
+.footerBbq {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-top: auto;
+    padding: 4%;
+
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+
+    background: linear-gradient(98.68deg, #263825 10.4%, #8fbf8d 183.17%);
+}
+.copyright {
+    position: absolute;
+    height: 2px;
+    width: 90%;
+    margin-top: 15%;
+    margin-left: 2%;
+
+    background: #8fbf8d;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: left;
+
+    color: #ffffff;
+}

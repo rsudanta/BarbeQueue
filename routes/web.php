@@ -27,3 +27,4 @@ Route::get('antrian','AntrianMerchant@index');
 Route::get('tambahbidang','TambahBidang@index');
 Route::get('tambahmerchant','TambahMerchant@index');
 Route::get('detailmerchant','DetailMerchant@index');
+Route::get('dashboardadmin','Dashboardadmin@index');

@@ -80,10 +80,10 @@
                             <div class="card">
                                 <div class="row">
                                     <div class="col-6">
-                                        <img src="/public/assets/images/shalvina.png" alt="">
+                                        <img src="{{asset('assets/images/shalvina.png')}}" alt="">
                                     </div>
                                     <div class="col-6">
-                                        <img src="/public/assets/images/Bintang.png" alt="">
+                                        <img src="{{asset('assets/images/Bintang.png')}}" alt="">
                                         <p class="pt-4">“ INI BAGIAN TESTIMONIAL BarbeQueue adalah sebuah aplikasi online yang
                                             menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan
                                             BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah
@@ -101,10 +101,10 @@
                             <div class="card">
                                 <div class="row">
                                     <div class="col-6">
-                                        <img src="/public/assets/images/shalvina.png" alt="">
+                                        <img src="{{asset('assets/images/shalvina.png')}}" alt="">
                                     </div>
                                     <div class="col-6">
-                                        <img src="/public/assets/images/Bintang.png" alt="">
+                                        <img src="{{asset('assets/images/Bintang.png')}}" alt="">
                                         <p class="pt-4">“ INI BAGIAN TESTIMONIAL BarbeQueue adalah sebuah aplikasi online yang
                                             menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan
                                             BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah
@@ -122,10 +122,10 @@
                             <div class="card">
                                 <div class="row">
                                     <div class="col-6">
-                                        <img src="/public/assets/images/shalvina.png" alt="">
+                                        <img src="{{asset('assets/images/shalvina.png')}}" alt="">
                                     </div>
                                     <div class="col-6">
-                                        <img src="/public/assets/images/Bintang.png" alt="">
+                                        <img src="{{asset('assets/images/Bintang.png')}}" alt="">
                                         <p class="pt-4">“ INI BAGIAN TESTIMONIAL BarbeQueue adalah sebuah aplikasi online yang
                                             menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan
                                             BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah

@@ -8,13 +8,14 @@
     <!-- Jumbotron -->
     <div class="page-wrapper">
       <div class="jumbotron2 jumbotron-fluid">
-        <h1>
-          Search Box
-        </h1>
-        <div class="box">
-          <i class="fa fa-seardh" aria-hidden="true"> </i>
-          <input type="text" name="">
+        <div class="search">
+          <form>
+            <input type="text" name="search" class="cari">
+            <a href=""><img src="{{asset('assets/images/search.png')}}" alt=""></a>
+          </form>
+
         </div>
+        
       </div>
       <!-- End Jumbotron -->
 
