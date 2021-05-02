@@ -14,7 +14,7 @@
                     <h1 class="title">BarbeQueue
                     </h1>
                     <p>Aplikasi Antrian Online</p>
-                    <a href="" class="mt-4 btn btn-barbequeue">
+                    <a href="{{route('login')}}" class="mt-4 btn btn-barbequeue">
                         <p>Login</p>
                     </a>
                 </div>

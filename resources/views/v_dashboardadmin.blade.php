@@ -10,7 +10,7 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h2 class="display-4">
-        Hi, Admin,
+        Hi, {{Auth::User()->name}},
         </h2>
         
         <p class="display-5">
@@ -27,14 +27,14 @@
         <div class="col-5 info-panel">
           <div class="row ">
             <div class="col-lg">
-            <a href="" class="btn tombol1">Tambah Bidang</a>
+            <a href="{{route('admin_bidang')}}" class="btn tombol1">Tambah Bidang</a>
             </div>
           </div>
         </div>
         <div class="col-5 info-panel">
           <div class="row">
             <div class="col-lg">
-            <a href="" class="btn tombol1">Tambah Merchant</a>
+            <a href="{{route('admin_merchant')}}" class="btn tombol1">Tambah Merchant</a>
             </div>
           </div>
         </div>

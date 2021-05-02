@@ -45,7 +45,7 @@
 
             <div class="row">
                 <div class="col-70">
-                    <p>Belum punya akun ? <a href="" class="text fw-bold textlog">Register sekarang!</a> </p>
+                    <p>Belum punya akun ? <a href="{{route('register')}}" class="text fw-bold textlog">Register sekarang!</a> </p>
                 </div>
 
             </div>
