@@ -61,7 +61,9 @@
                     <input id="password-confirm" type="password" class="form-control form-reg" placeholder="Re-write Password" name="password_confirmation" required autocomplete="new-password">
                 </div>
             </div>
-            <input type="submit" value="Register">
+            <div class="row" style="justify-content:flex-end">
+                <input type="submit" value="Register" >
+            </div>
         </form>
     </div>
 </div>

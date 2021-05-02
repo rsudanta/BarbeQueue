@@ -39,8 +39,8 @@
                 </div>
             </div>
 
-            <div class="row">
-                <input type="submit" style="margin-left:36.5%" value="Login">
+            <div class="row" style="justify-content:flex-end">
+                <input type="submit" value="Login">
             </div>
 
             <div class="row">

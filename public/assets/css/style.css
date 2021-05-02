@@ -97,8 +97,8 @@ label {
     text-align: justify;
 }
 input[type="submit"] {
-    position: absolute;
-    width: 10%;
+    position: relative;
+    width: 30%;
     height: 36px;
     margin-left: 35.5%;
     margin-top: 30px;
