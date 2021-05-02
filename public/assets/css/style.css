@@ -26,12 +26,8 @@ body {
 }
 
 .tombolnav {
-    position: absolute;
-    width: 100px;
-    height: 36px;
-    margin-left: 890px;
-    margin-top: -55px;
-
+    margin-left: 700px;
+    right: 0%;
     font-size: 14px;
     font-weight: 5px;
     font-family: spartan;

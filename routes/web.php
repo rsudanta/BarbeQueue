@@ -38,7 +38,7 @@ Route::prefix('admin')
 
     });
 
-Route::get('/','LandingPage@index');
+Route::get('/','LandingPage@index')->name('landing');
 Route::get('pilihmerchant','Pilihmerchant@index');
 Route::get('merchant','MerchantPage@index');
 Route::get('antrian','AntrianMerchant@index');

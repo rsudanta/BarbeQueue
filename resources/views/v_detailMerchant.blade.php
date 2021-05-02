@@ -25,7 +25,7 @@
             </ul>
         </div>
         @endif
-        <form method="POST" action="{{route('admin_merchant_detail_store')}}" enctype="multipart/form-data">
+        <form method="POST" action="{{'admin_merchant_detail_store'}}" enctype="multipart/form-data">
         @csrf
             <div class="form-group row" style="margin-top:50px">
                 <label class="col-md-5 col-form-label text-md-left">{{ __('Nama Merchant') }}</label>

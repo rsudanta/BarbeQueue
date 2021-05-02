@@ -51,5 +51,8 @@
     font-weight: bold;
     font-size: 36px;
 }
-/*detail merchant*/
-txt-ttgToko
+
+
+a:hover{
+    text-decoration: none;
+}

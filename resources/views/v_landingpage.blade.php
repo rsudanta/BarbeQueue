@@ -19,7 +19,7 @@
                     </a>
                 </div>
                 <div class="col-6 hehe">
-                <img src="{{asset('assets/images/hero.png')}}" alt="">
+                <!-- <img src="{{asset('assets/images/hero.png')}}" alt=""> -->
                 </div>
             </div>
         </div>
