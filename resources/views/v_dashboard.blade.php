@@ -165,9 +165,6 @@
 
     </div>
     <div class="page-wrapper">
-    <form action="{{ url('logout') }}" method="post">
-        @csrf
-        <button class="btn"><i class="fas fa-sign-out-alt"></i>Logout</button>
-    </form>
+
     <!-- End Container -->   
 @endsection

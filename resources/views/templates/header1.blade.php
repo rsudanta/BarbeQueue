@@ -4,6 +4,6 @@
           <img src="{{asset('assets/images/logodanta.png')}}" alt ="Logo" width=79px height=79px >
           BarbeQueue
         </a>
-        <a href="" class="btn tombolnav">Logout</a>
+        <a href="{{ url('logout') }}" class="btn tombolnav">Logout</a>
     </nav>
 </div>

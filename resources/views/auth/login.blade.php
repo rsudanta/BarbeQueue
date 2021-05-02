@@ -30,7 +30,7 @@
                     <label>Password</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" class="form-log" placeholder="Password" id="password" name="password">
+                    <input type="password" class="form-log" placeholder="Password" id="password" name="password">
                     @error('password')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
