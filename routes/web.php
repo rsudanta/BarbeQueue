@@ -19,11 +19,11 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/','LandingPage@index');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('register','Register@index');
+Route::get('login','Login@index');
 Route::get('dashboard','Dashboard@index');
 Route::get('pilihmerchant','Pilihmerchant@index');
 Route::get('merchant','MerchantPage@index');
 Route::get('antrian','AntrianMerchant@index');
 Route::get('tambahbidang','TambahBidang@index');
-Route::get('tambahmerchant','TambahMerchant@index');
-Route::get('detailmerchant','DetailMerchant@index');
