@@ -487,3 +487,35 @@ input[type="text"] {
 .cardadmin .table tr td {
     border-color: #ffffff;
 }
+
+.sidebar {
+    background-color: #263825;
+    margin-top: 84px;
+    padding-top: 30px;
+    position: absolute;
+    left: 0;
+    width: 250px;
+    height: 100%;
+}
+
+.sidebar img {
+    width: 100px;
+}
+
+.sidebar h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #8fbf8d;
+    margin-bottom: 50px;
+}
+
+.sidebar a {
+    color: #8fbf8d;
+    display: block;
+    margin-left: 60px;
+    line-height: 50px;
+}
+
+.sidebar a .fa-sign-out-alt {
+    margin-top: 200px;
+}
