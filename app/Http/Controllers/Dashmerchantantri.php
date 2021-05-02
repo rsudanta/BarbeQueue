@@ -1,12 +1,12 @@
 <?php
-
+ 
 namespace App\Http\Controllers;
-
+ 
 use Illuminate\Http\Request;
-
-class TambahMerchant extends Controller
+ 
+class Dashmerchantantri extends Controller
 {
     public function index(){
-        return view('v_tambahMerchant');
+    	return view('v_dashmerchantantri');
     }
 }

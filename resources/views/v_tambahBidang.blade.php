@@ -12,12 +12,23 @@
                 <a href="dashboard" style="color: #000000">Dashboard ></a>
                 <a href="tambahbidang" style="color: #000000">Tambah Bidang</a>
             </div>
-                <form method="POST" action="#">
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+                <form method="POST" action="{{ route('admin_bidang_store') }}" enctype="multipart/form-data">
+                @csrf
                     <div class="form-group row" style="margin-top:70px">
                         <label class="col-md-3 col-form-label text-md-left">{{ __('Nomor Bidang') }}</label>
 
                         <div class="col-md-8">
-                            <input type="text" class="form-control form-reg" name="no_bidang" required autofocus>
+                            <input type="text" class="form-control form-reg" name="nama_bidang" autofocus>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -26,12 +37,12 @@
                         <div class="col-md-8">
                             <div class="fileUpload btn btn-imgBid">
                                 <span>Browse</span>
-                                <input type="file" class="upload" name="img_bidang"/>
+                                <input type="file" class="upload" name="foto_bidang"/>
                             </div>
                         </div>
                     </div>
                     <div class="row row-add">
-                        <button oncLick="#" class="btn-ambilAntrian">Tambah</button>
+                        <button class="btn-ambilAntrian">Tambah</button>
                     </div>
                 </form>
             </div>

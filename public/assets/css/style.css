@@ -29,10 +29,10 @@ body {
 
 .tombolnav {
     position: absolute;
-    width: 32%;
+    width: 100px;
     height: 36px;
-    margin-left: 260%;
-    margin-top: -16%;
+    margin-left: 890px;
+    margin-top: -55px;
 
     font-size: 14px;
     font-weight: 5px;
@@ -53,7 +53,7 @@ body {
     top: 0px;
     background-color: #ffffff;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25),
-        0 0 40px rgba(0, , 0, 0, 0.1) inset;
+        0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 .shadow:before,
 .shadow:after {
@@ -164,6 +164,9 @@ input[type="submit"]:hover {
     background-color: #263825;
     background-size: cover;
     height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .jumbotron .display-4 {
@@ -376,13 +379,6 @@ p.txt-merchantName {
     cursor: pointer;
 }
 
-/* Search box pilih merchant*/
-.jumbotron2 .box {
-    margin-top: 10%;
-    width: 1100px;
-    margin-left: 100px;
-    border-radius: 50%;
-}
 .txt-path {
     font-size: 18px;
     font-weight: 700;
@@ -418,11 +414,112 @@ p.txt-merchantName {
     align-items: flex-start;
 }
 .form-log,
-input[type="text"]{
+input[type="text"] {
     padding: 12px;
     width: 100%;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     resize: vertical;
     border: none;
+}
+
+/* Search Panel */
+.jumbotron2 .search {
+    position: relative;
+    width: 1000px;
+    height: 50px;
+    background: #000000;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 60px;
+}
+
+.search .cari {
+    width: 1000px;
+    height: 50px;
+    border-radius: 1000px;
+}
+
+.jumbotron2 img {
+    margin-left: 950px;
+    margin-top: -75px;
+    width: 30px;
+}
+
+/* Dashboard Admin */
+
+.daftarbawah1 {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+}
+
+.daftarbawah1 .cardadmin {
+    width: 500px;
+    height: 300px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* dashboard admin */
+
+.btn-del {
+    position: relative;
+    margin-top: -5px;
+    width: 100px;
+    height: 36px;
+
+    font-size: 14px;
+    font-weight: 5px;
+    font-family: spartan;
+
+    background-color: #a94949;
+    color: white;
+
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cardadmin thead tr th {
+    font-weight: bold;
+}
+
+.cardadmin .table tr th {
+    border-color: #ffffff;
+}
+
+.cardadmin .table tr td {
+    border-color: #ffffff;
+}
+
+.sidebar {
+    background-color: #263825;
+    margin-top: 84px;
+    padding-top: 30px;
+    position: absolute;
+    left: 0;
+    width: 250px;
+    height: 100%;
+}
+
+.sidebar img {
+    width: 100px;
+}
+
+.sidebar h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #8fbf8d;
+    margin-bottom: 50px;
+}
+
+.sidebar a {
+    color: #8fbf8d;
+    display: block;
+    margin-left: 60px;
+    line-height: 50px;
+}
+
+.sidebar a .fa-sign-out-alt {
+    margin-top: 200px;
 }

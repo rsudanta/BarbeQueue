@@ -4,6 +4,8 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
 
 class RoleUser
 {
@@ -19,6 +21,6 @@ class RoleUser
         if(Auth::user() && Auth::user()->roles == 'USER'){
             return $next($request);
         }
-        return redirect('/dashboard');    
+        return redirect('/admin');    
     }
 }

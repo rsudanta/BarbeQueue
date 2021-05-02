@@ -6,11 +6,12 @@
 
 @section('isi_page')
     <!-- Jumbotron -->
+
   <div class="page-wrapper">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h2 class="display-4">
-          Hi, Salma Alifia,
+          Hi, {{Auth::user()->name}},
         </h2>
         
         <p class="display-5">
@@ -164,5 +165,9 @@
 
     </div>
     <div class="page-wrapper">
+    <form action="{{ url('logout') }}" method="post">
+        @csrf
+        <button class="btn"><i class="fas fa-sign-out-alt"></i>Logout</button>
+    </form>
     <!-- End Container -->   
 @endsection

@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
  
 use Illuminate\Http\Request;
  
-class Dashboard extends Controller
+class Editmerchant extends Controller
 {
     public function index(){
-    	return view('v_dashboard');
+    	return view('v_editmerchant');
     }
 }
