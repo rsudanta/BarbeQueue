@@ -46,13 +46,89 @@
 .row-add{
     justify-content:flex-end;
     margin-top: 40px;
+    padding-right: 12px;
 }
 .txt-detailM{
     font-weight: bold;
     font-size: 36px;
 }
-
-
 a:hover{
-    text-decoration: none;
+    text-decoration:none;
+}
+/*User Profile*/
+.cont-userProfile{
+    position: relative;
+    margin-top: 55px;
+    width: 623px;;
+}
+.img-userProfile{
+    width: 234px;
+    height: 234px;
+    border-radius: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+p.txt-activity{
+    font-size: 25px;
+    font-weight: 700;
+}
+.daftar-activity {
+    margin-top: 60px;
+}
+p.txt-activity2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+.card-activity {
+    border-radius: 20px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
+    margin-right: 16px;
+}
+.col-20 {
+    width:20%;
+}
+.row-titleA{
+    height: 25px;
+    background-color: #D5DC60;
+    margin: 0;
+    padding: 5px;
+    padding-left: 15px;
+
+}
+.card-titleA {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.card-textA {
+    font-size: 9px;
+    font-weight: 600;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.card-text1A {
+    font-size: 9px;
+    width: 50%;
+    margin-bottom: 5px;
+}
+.row-aBody{
+    padding-left:12px;
+}
+.txt-status{
+    position: absolute;
+    width: 85px;
+    height: 23px;
+    top: 9px;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    right:12px;
+
+    background: #D5DC60;
+    border-radius: 5px;
 }

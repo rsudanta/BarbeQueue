@@ -44,3 +44,5 @@ Route::get('merchant','MerchantPage@index');
 Route::get('antrian','AntrianMerchant@index');
 Route::get('dashmerchantantri','Dashmerchantantri@index');
 Route::get('editmerchant','Editmerchant@index');
+Route::get('userprofile','UserProfile@index');
+Route::get('aktivitas','Aktivitas@index');
