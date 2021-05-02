@@ -456,3 +456,34 @@ input[type="text"] {
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+
+/* dashboard admin */
+
+.btn-del {
+    position: relative;
+    margin-top: -5px;
+    width: 100px;
+    height: 36px;
+
+    font-size: 14px;
+    font-weight: 5px;
+    font-family: spartan;
+
+    background-color: #a94949;
+    color: white;
+
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cardadmin thead tr th {
+    font-weight: bold;
+}
+
+.cardadmin .table tr th {
+    border-color: #ffffff;
+}
+
+.cardadmin .table tr td {
+    border-color: #ffffff;
+}

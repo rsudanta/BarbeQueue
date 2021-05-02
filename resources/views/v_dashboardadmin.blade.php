@@ -44,12 +44,76 @@
         <div class="row daftarbawah1">
           <div class="col">
             <div class="cardadmin" >
-            
+              <div class="card-body">
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID Bidang</th>
+                      <th scope="col">Nama Bidang</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>0189201</td>
+                      <td>K-Mart</td>
+                      <td><button type="button" class="btn btn-del">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>0189202</td>
+                      <td>K-Marttttttt</td>
+                      <td><button type="button" class="btn btn-del">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>0189203</td>
+                      <td>K-Club</td>
+                      <td><button type="button" class="btn btn-del">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>0189204</td>
+                      <td>K-Clubbbbbb</td>
+                      <td><button type="button" class="btn btn-del">Delete</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
           <div class="col">
             <div class="cardadmin" >
-            
+            <div class="card-body">
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID Merchant</th>
+                      <th scope="col">Nama Merchant</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>0189201</td>
+                      <td>K-Mart</td>
+                      <td><button type="button" class="btn btn-del">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>0189202</td>
+                      <td>K-Marttttttt</td>
+                      <td><button type="button" class="btn btn-del">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>0189203</td>
+                      <td>K-Club</td>
+                      <td><button type="button" class="btn btn-del">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>0189204</td>
+                      <td>K-Clubbbbbb</td>
+                      <td><button type="button" class="btn btn-del">Delete</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
           
