@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Bidang;
+use App\Models\DetailMerchant;
 use App\Models\User;
 use Illuminate\Http\Request;
  
@@ -29,6 +30,8 @@ class AdminController extends Controller
     public function destroy_merchant($id){
         $item = User::findOrFail($id);
         $item->delete();
+        $detail = DetailMerchant::where('user_id', $id);
+        $detail->delete();
 
         return redirect()->route('admin_dashboard');
     }
