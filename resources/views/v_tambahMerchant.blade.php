@@ -52,6 +52,7 @@
                 <input id="password-confirm" type="password" class="form-control form-reg" placeholder="Re-write Password" name="password_confirmation"  autocomplete="new-password">
                 </div>
             </div>
+            <input type="hidden" value="MERCHANT" name="roles"  autofocus placeholder="Merchant Name">
 
             <div class="row row-add">
                 <button class="btn-ambilAntrian">Next</button>

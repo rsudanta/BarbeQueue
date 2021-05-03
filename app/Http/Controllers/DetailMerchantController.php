@@ -59,13 +59,6 @@ class DetailMerchantController extends Controller
             'foto_merchant' => $nama_file
         ]);
 
-        $data = [
-            'roles' => "MERCHANT"
-        ];
-
-        $item = User::findOrFail($id);
-        $item->update($data);
-
         return redirect()->route('admin_dashboard');
 
     }

@@ -21,10 +21,7 @@ class User extends Authenticatable
         'email',
         'password',
         'no_hp_user',
-        'deskripsi_merchant',
-        'alamat_merchant',
-        'jam_buka_merchant',
-        'jam_tutup_merchant'
+        'roles'
     ];
 
     /**
