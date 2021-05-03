@@ -18,8 +18,9 @@ class RoleMerchant
      */
     public function handle(Request $request, Closure $next)
     {
-        if(Auth::user() && Auth::user()->roles == 'MERCHANT'){
+        if (Auth::user() && Auth::user()->roles == 'MERCHANT') {
             return $next($request);
         }
-        return redirect('/merchant');    }
+        return redirect('/user');
+    }
 }

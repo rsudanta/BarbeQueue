@@ -21,6 +21,6 @@ class RoleAdmin
         if(Auth::user() && Auth::user()->roles == 'ADMIN'){
             return $next($request);
         }
-        return redirect('/user');    
+        return redirect('/merchant');    
     }
 }
