@@ -41,11 +41,12 @@ Route::prefix('admin')
     });
 
 
-    Route::prefix('merchant')
+    /* Route::prefix('merchant')
     ->middleware(['auth','merchant'])
     ->group(function () {
         Route::get('/','Dashmerchantantri@index');
     });
+    */
 
 
 Route::get('/merchants','MerchantPage@index');
@@ -56,3 +57,4 @@ Route::get('antrian','AntrianMerchant@index');
 Route::get('editmerchant','Editmerchant@index');
 Route::get('userprofile','UserProfile@index');
 Route::get('aktivitas','Aktivitas@index');
+Route::get('dashmerchantantri','Dashmerchantantri@index');

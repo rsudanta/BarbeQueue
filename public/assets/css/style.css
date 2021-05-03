@@ -495,7 +495,7 @@ input[type="text"] {
     position: absolute;
     left: 0;
     width: 250px;
-    height: 100%;
+    height: 1000px;
 }
 
 .sidebar img {
@@ -517,5 +517,93 @@ input[type="text"] {
 }
 
 .sidebar a .fa-sign-out-alt {
-    margin-top: 200px;
+    margin-top: 500px;
+}
+
+.cont-mer {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.area {
+    min-height: 1000px;
+}
+
+.row-update {
+    margin-top: 40px;
+    margin-left: 705px;
+}
+
+.cont-mer {
+    position: absolute;
+    margin-top: 180px;
+}
+
+.txt-detailM {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.no {
+    margin-top: 10px;
+}
+
+.infoan {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.cardantri .table tr td {
+    border-color: #ffffff;
+}
+
+.daftarbawah4 {
+    margin-top: 0px;
+    margin-left: -20px;
+    margin-bottom: 0px;
+}
+
+.daftarbawah4 .cardantri {
+    width: 1000px;
+    height: 250px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.row-info {
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+.row-info1 {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.btn-ambilAntrian1 {
+    width: 211px;
+    height: 36px;
+
+    background: #8fbf8d;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-ambilAntrian1:hover {
+    background-color: #45a049;
+}
+
+.statusan .txt-detailM {
+    margin-left: 350px;
+}
+
+.statusan .no {
+    margin-left: 410px;
 }
