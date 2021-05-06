@@ -18,6 +18,8 @@ class CreateBidangTable extends Migration
             $table->timestamps();
             $table->string('foto_bidang')->default('foto-bidang.jpg');
             $table->string('nama_bidang');
+            $table->string('deskripsi_bidang');
+            $table->integer('count')->default(0);
         });
     }
 

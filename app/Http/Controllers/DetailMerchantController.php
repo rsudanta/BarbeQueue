@@ -59,6 +59,13 @@ class DetailMerchantController extends Controller
             'foto_merchant' => $nama_file
         ]);
 
+        $bidang_id=$request->bidang_id;
+        $count = Bidang::where('id',$bidang_id)->value('count');
+        Bidang::find($bidang_id)->update([
+            'count'=> $count+1
+        ]
+        );
+
         return redirect()->route('admin_dashboard');
 
     }

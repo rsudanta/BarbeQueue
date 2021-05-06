@@ -10,7 +10,7 @@ class Bidang extends Model
     use HasFactory;
     
     protected $fillable=[
-        'foto_bidang','nama_bidang'
+        'foto_bidang','nama_bidang','deskripsi_bidang','count'
     ];
 
     protected $table = 'bidang';

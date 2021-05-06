@@ -24,6 +24,10 @@ Route::prefix('user')
     ->middleware(['auth','user'])
     ->group(function () {
         Route::get('/','UserController@index')->name('user_dashboard');
+        Route::get('/merchant/{id}','UserController@show')->name('user_merchant');
+        Route::get('/merchant/detail/{id}','MerchantController@index')->name('user_merchant_detail');
+
+
     });
 Route::prefix('admin')
     ->middleware(['auth','admin'])
@@ -41,18 +45,16 @@ Route::prefix('admin')
     });
 
 
-    /* Route::prefix('merchant')
+    Route::prefix('merchant')
     ->middleware(['auth','merchant'])
     ->group(function () {
         Route::get('/','Dashmerchantantri@index');
     });
-    */
 
 
-Route::get('/merchants','MerchantPage@index');
+
 
 Route::get('/','LandingPage@index')->name('landing');
-Route::get('pilihmerchant','Pilihmerchant@index');
 Route::get('antrian','AntrianMerchant@index');
 Route::get('editmerchant','Editmerchant@index');
 Route::get('userprofile','UserProfile@index');

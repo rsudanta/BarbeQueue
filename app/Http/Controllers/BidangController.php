@@ -16,7 +16,8 @@ class BidangController extends Controller
     {
         $request->validate([
             'foto_bidang' => 'file|image|mimes:jpeg,png,jpg',
-            'nama_bidang' => 'required'
+            'nama_bidang' => 'required',
+            'deskripsi_bidang' => 'required'
         ]);
         // menyimpan data file yang diupload ke variabel $file
         if ($request->foto_bidang != null) {
@@ -33,6 +34,7 @@ class BidangController extends Controller
 
         $data = [
             'nama_bidang' => $request->nama_bidang,
+            'deskripsi_bidang' => $request->deskripsi_bidang,
             'foto_bidang' => $nama_file,
         ];
 

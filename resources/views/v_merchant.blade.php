@@ -6,28 +6,28 @@
 
 @section('isi_page')
 <div class="page-wrapper">
-    <img src="{{asset('assets/images/merchant.png')}}" alt ="Merchant Pic" style="margin-top:84px; width:100%">
+    <img src="/storage/foto/{{$items->foto_merchant}}" alt ="Merchant Pic" style="margin-top:84px; width:100%">
     <div class="container cont-dMerchant">
             <div class="txt-path">
                 <a href="dashboard" style="color: #000000">Dashboard ></a>
                 <a href="pilihmerchant" style="color: #000000">Merchant ></a>
-                <a href="merchant" style="color: #000000">K-Marttt</a>
+                <a href="merchant" style="color: #000000">{{$items->user->name}}</a>
             </div>
-            <p class="txt-merchantName">K-Mart</p>
-            <p>One Stop Data Antrian Solution. Transform your business better. BarbeQueue simplify everything that looks so complex. One Stop Data Antrian Solution. Transform your business better. BarbeQueue simplify everything that looks so complex.</p>
+            <p class="txt-merchantName">{{$items->user->name}}</p>
+            <p>{{$items->tentang}}</p>
                 <p>Alamat : </p>
-                <p style="margin-bottom: 5%">Jalan One Stop Data Antrian Solution. Transform your business better. BarbeQueue simplify everything that looks so complex. One Stop Data Antrian Solution.</p>
+                <p style="margin-bottom: 5%">{{$items->alamat}}</p>
                 <div class="row">
                     <p class="col-sm-3" style="font-weight:bold">No. Telp</p>
-                    <p class="col-sm-9">(022) 4256298</p>
+                    <p class="col-sm-9">{{$items->no_telp}}</p>
                 </div>
                 <div class="row">
                     <p class="col-sm-3" style="font-weight:bold">Jam Buka/Tutup</p>
-                    <p class="col-sm-9">06:00 - 17:00</p>
+                    <p class="col-sm-9">{{$items->jam_buka}} - {{$items->jam_tutup}}</p>
                 </div>
                 <div class="row">
                     <p class="col-sm-3" style="font-weight:bold">Estimasi Waktu</p>
-                    <p class="col-sm-9">30 Menit/Orang</p>
+                    <p class="col-sm-9">{{$items->estimasi_waktu}} Menit/Orang</p>
                 </div>
                 <div class="row">
                     <p class="col-sm-3" style="font-weight:bold">Status Antrian</p>

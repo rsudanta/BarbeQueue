@@ -25,10 +25,17 @@
                 <form method="POST" action="{{ route('admin_bidang_store') }}" enctype="multipart/form-data">
                 @csrf
                     <div class="form-group row" style="margin-top:70px">
-                        <label class="col-md-3 col-form-label text-md-left">{{ __('Nomor Bidang') }}</label>
+                        <label class="col-md-3 col-form-label text-md-left">{{ __('Nama Bidang') }}</label>
 
                         <div class="col-md-8">
                             <input type="text" class="form-control form-reg" name="nama_bidang" autofocus>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label text-md-left">{{ __('Deskripsi Bidang') }}</label>
+
+                        <div class="col-md-8">
+                            <input type="text" class="form-control form-reg" name="deskripsi_bidang" autofocus>
                         </div>
                     </div>
                     <div class="form-group row">
