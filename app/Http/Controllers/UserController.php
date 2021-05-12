@@ -25,4 +25,11 @@ class UserController extends Controller
         ]);
     }
 
+    public function merchant($id){
+        $items=DetailMerchant::where('id',$id)->first();
+        return view('v_merchant',[
+            'items'=>$items
+        ]);
+    }
+
 }

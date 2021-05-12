@@ -12,11 +12,11 @@
       <div class="sidebar">
         <center>
         <img src="{{asset('assets/images/logo.png')}}"  alt="">
-        <h4>Merchant <br> Kecantikan </h4>
+        <h4>{{Auth::user()->name}} </h4>
         </center>
         <a href=""><i class="fas fa-home"></i><span> Status Antrian</span></a>
-        <a href=""><i class="fas fa-shopping-cart"></i><span> Edit Merchant</span></a>
-        <a href=""><i class="fas fa-sign-out-alt"></i><span> Logout</span></a>
+        <a href="{{ route('merchant_edit', Auth::user()->id) }}"><i class="fas fa-shopping-cart"></i><span> Edit Merchant</span></a>
+        <a href="{{ url('logout') }}"><i class="fas fa-sign-out-alt"></i><span> Logout</span></a>
       </div>
      
 

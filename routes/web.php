@@ -25,7 +25,7 @@ Route::prefix('user')
     ->group(function () {
         Route::get('/','UserController@index')->name('user_dashboard');
         Route::get('/merchant/{id}','UserController@show')->name('user_merchant');
-        Route::get('/merchant/detail/{id}','MerchantController@index')->name('user_merchant_detail');
+        Route::get('/merchant/detail/{id}','UserController@merchant')->name('user_merchant_detail');
 
 
     });
@@ -48,11 +48,10 @@ Route::prefix('admin')
     Route::prefix('merchant')
     ->middleware(['auth','merchant'])
     ->group(function () {
-        Route::get('/','Dashmerchantantri@index');
+        Route::get('/','MerchantController@index')->name('merchant_dashboard');
+        Route::get('/edit/{id}','MerchantController@edit')->name('merchant_edit');
+        Route::post('/edit/{id}','MerchantController@update')->name('merchant_update');
     });
-
-
-
 
 Route::get('/','LandingPage@index')->name('landing');
 Route::get('antrian','AntrianMerchant@index');
