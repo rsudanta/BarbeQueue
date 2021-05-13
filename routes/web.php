@@ -26,9 +26,9 @@ Route::prefix('user')
         Route::get('/','UserController@index')->name('user_dashboard');
         Route::get('/merchant/{id}','UserController@show')->name('user_merchant');
         Route::get('/merchant/detail/{id}','UserController@merchant')->name('user_merchant_detail');
-
-
+        Route::post('/merchant/detail/{id}','AntrianController@store')->name('antrian_store');
     });
+
 Route::prefix('admin')
     ->middleware(['auth','admin'])
     ->group(function () {

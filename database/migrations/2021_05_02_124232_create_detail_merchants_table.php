@@ -18,7 +18,7 @@ class CreateDetailMerchantsTable extends Migration
             $table->timestamps();
             $table->integer('user_id');
             $table->integer('bidang_id');
-            $table->string('tentang');
+            $table->text('tentang');
             $table->string('alamat');
             $table->string('no_telp');
             $table->integer('estimasi_waktu');
