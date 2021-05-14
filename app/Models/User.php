@@ -34,6 +34,10 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+    public function merchant() {
+        return $this->belongsTo(DetailMerchant::class, 'id', 'user_id');
+    }
+
     /**
      * The attributes that should be cast to native types.
      *

@@ -49,6 +49,8 @@ Route::prefix('admin')
     ->middleware(['auth','merchant'])
     ->group(function () {
         Route::get('/','MerchantController@index')->name('merchant_dashboard');
+        Route::post('/done/{id}','AntrianController@done')->name('done');
+        Route::post('/exp/{id}','AntrianController@expire')->name('expire');
         Route::get('/edit/{id}','MerchantController@edit')->name('merchant_edit');
         Route::post('/edit/{id}','MerchantController@update')->name('merchant_update');
     });
