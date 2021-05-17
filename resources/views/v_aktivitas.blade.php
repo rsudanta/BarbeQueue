@@ -13,8 +13,8 @@
         </div>
         <div class="container" style="margin-top: 54px; margin-bottom:54px">
             <div class="txt-path">
-                <a href="dashboard" style="color: #000000">Dashboard ></a>
-                <a href="aktivitas" style="color: #000000">My Activity</a>
+                <a href="{{route('user_dashboard')}}" style="color: #000000">Dashboard ></a>
+                <a href="{{route('user_activity')}}" style="color: #000000">My Activity</a>
             </div>
             <p class="txt-activity">On-Going</p>
             <div class="row daftar-activity">

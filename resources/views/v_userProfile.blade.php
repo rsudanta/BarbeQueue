@@ -11,7 +11,11 @@
                 <p class="txt-merchantA">My Profile</p>
             </div>
         </div>
+
         <div class="container cont-userProfile">
+            <div class="txt-path">
+                <a href="{{route('user_dashboard')}}" style="color: #000000">Dashboard </a>
+            </div>
             <img src="{{asset('assets/images/shalvina.png')}}" class="img-userProfile" alt ="ProfilePic" >
             <form method="POST" action="#">
                 <div class="form-group row" style="margin-top:50px">

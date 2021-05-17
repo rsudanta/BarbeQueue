@@ -31,5 +31,17 @@ class UserController extends Controller
             'items'=>$items
         ]);
     }
+    public function profil()
+    {
+        return view('v_userProfile', [
+            
+        ]);
+    }
+    public function aktivitas()
+    {
+        return view('v_aktivitas', [
+            
+        ]);
+    }
 
 }

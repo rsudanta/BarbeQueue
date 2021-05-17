@@ -27,6 +27,8 @@ Route::prefix('user')
         Route::get('/merchant/{id}','UserController@show')->name('user_merchant');
         Route::get('/merchant/detail/{id}','UserController@merchant')->name('user_merchant_detail');
         Route::post('/merchant/detail/{id}','AntrianController@store')->name('antrian_store');
+        Route::get('/userProfile','UserController@profil')->name('user_profile');
+        Route::get('/user-activity','UserController@aktivitas')->name('user_activity');
     });
 
 Route::prefix('admin')
@@ -58,6 +60,4 @@ Route::prefix('admin')
 Route::get('/','LandingPage@index')->name('landing');
 Route::get('antrian','AntrianMerchant@index');
 Route::get('editmerchant','Editmerchant@index');
-Route::get('userprofile','UserProfile@index');
-Route::get('aktivitas','Aktivitas@index');
 Route::get('dashmerchantantri','Dashmerchantantri@index');

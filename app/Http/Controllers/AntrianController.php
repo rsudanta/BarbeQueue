@@ -29,7 +29,7 @@ class AntrianController extends Controller
         ];
 
         Antrian::create($data);
-        return redirect()->route('user_dashboard');
+        return redirect()->route('user_activity');
     }
 
 

@@ -6,12 +6,12 @@
 
 @section('isi_page')
 <div class="page-wrapper">
-    <img src="/storage/foto/{{$items->foto_merchant}}" alt="Merchant Pic" style="margin-top:84px; width:100%">
+    <img src="/storage/foto/{{$items->foto_merchant}}" alt="Merchant Pic" class="img-merchantDetail">
     <div class="container cont-dMerchant">
         <div class="txt-path">
-            <a href="dashboard" style="color: #000000">Dashboard ></a>
-            <a href="pilihmerchant" style="color: #000000">Merchant ></a>
-            <a href="merchant" style="color: #000000">{{$items->user->name}}</a>
+            <a href="{{route('user_dashboard')}}" style="color: #000000">Dashboard ></a>
+            <a href="#" style="color: #000000">Merchant ></a>
+            <a style="color: #000000">{{$items->user->name}}</a>
         </div>
         <p class="txt-merchantName">{{$items->user->name}}</p>
         <p>{{$items->tentang}}</p>
@@ -36,7 +36,7 @@
         <form action="{{ route('antrian_store', $items->id) }}" method="POST">
             @csrf
             <div class="row" style="justify-content:center; margin-top:8%">
-                <button oncLick="location.href='antrian';" class="btn-ambilAntrian">Ambil Antrian</button>
+                <button oncLick="" class="btn-ambilAntrian">Ambil Antrian</button>
             </div>
         </form>
     </div>

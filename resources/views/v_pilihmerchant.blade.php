@@ -24,7 +24,7 @@
 
     <section class="section-hal">
       <div class="container">
-        <h1 class="text-hal"> <a href="">Dashboard</a> <a href=""> > Merchant</a></h1>
+        <h1 class="text-hal"> <a href="{{route('user_dashboard')}}">Dashboard</a> <a href=""> > Merchant</a></h1>
       </div>
     </section>
 

@@ -28,14 +28,14 @@
       <div class="col-5 info-panel">
         <div class="row ">
           <div class="col-lg">
-            <a href="" class="btn tombol">My Activity</a>
+            <a href="{{route('user_activity')}}" class="btn tombol">My Activity</a>
           </div>
         </div>
       </div>
       <div class="col-5 info-panel">
         <div class="row">
           <div class="col-lg">
-            <a href="" class="btn tombol1">My Profile</a>
+            <a href="{{route('user_profile')}}" class="btn tombol1">My Profile</a>
           </div>
         </div>
       </div>

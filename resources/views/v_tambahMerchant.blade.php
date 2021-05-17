@@ -9,8 +9,8 @@
     <div class="jumbotron jumb-bid"></div>
     <div class="container cont-bid">
         <div class="txt-path">
-            <a href="dashboard" style="color: #000000">Dashboard ></a>
-            <a href="tambahmerchant" style="color: #000000">Tambah Merchant</a>
+            <a href="{{route('admin_dashboard')}}" style="color: #000000">Dashboard ></a>
+            <a href="{{route('admin_merchant')}}"href="tambahmerchant" style="color: #000000">Tambah Merchant</a>
         </div>
         @if ($errors->any())
         <div class="alert alert-danger">
