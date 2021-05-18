@@ -5,6 +5,7 @@
 @endsection
 
 @section('isi_page')
+<title>Barbequeue - Detail Merchant</title>
 <div class="page-wrapper">
     <div class="jumbotron jumb-bid"></div>
     <div class="container cont-bid">

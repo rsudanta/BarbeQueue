@@ -28,7 +28,7 @@
       <div class="col-5 info-panel">
         <div class="row ">
           <div class="col-lg">
-            <a href="{{route('user_activity')}}" class="btn tombol">My Activity</a>
+            <a href="{{route('user_activity')}}" class="btn tombol1">My Activity</a>
           </div>
         </div>
       </div>

@@ -5,6 +5,8 @@
 @endsection
 
 @section('isi_page')
+
+<title>Barbequeue - Merchant</title>
 <div class="page-wrapper">
     <img src="/storage/foto/{{$items->foto_merchant}}" alt="Merchant Pic" class="img-merchantDetail">
     <div class="container cont-dMerchant">

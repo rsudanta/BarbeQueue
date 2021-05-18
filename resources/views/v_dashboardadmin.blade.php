@@ -6,6 +6,7 @@
 
 @section('isi_page')
 <!-- Jumbotron -->
+<title>Barbequeue - Dashboard Admin</title>
 <div class="page-wrapper">
   <div class="jumbotron jumbotron-fluid">
     <div class="container">

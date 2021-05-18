@@ -5,6 +5,8 @@
 @endsection
 
 @section('isi_page')
+
+<title>Barbequeue - Edit Merchant</title>
 <div class="page-wrapper">
     <div class="area">
 

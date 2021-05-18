@@ -5,6 +5,8 @@
 @endsection
 
 @section('isi_page')
+
+<title>Barbequeue - Dashboard Merchant</title>
 <div class="page-wrapper">
   <div class="area">
 
@@ -72,7 +74,7 @@
       </div>
       <div class="row">
         <div class="col-lg-5">
-          <div class="row row-info">
+          <div class="row mb-3 row-info">
             <form action="{{ route('done', $ongoing->id) }}" method="POST">
               @csrf
               <button class="btn-ambilAntrian">Done</button>
@@ -81,7 +83,7 @@
         </div>
 
         <div class="col-lg-3">
-          <div class="row row-info1">
+          <div class="row mb-3 row-info1">
             <form action="{{ route('expire', $ongoing->id) }}" method="POST">
               @csrf
               <button class="btn-ambilAntrian1">Expired</button>

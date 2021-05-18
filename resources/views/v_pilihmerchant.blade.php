@@ -6,6 +6,8 @@
 
 @section('isi_page')
 <!-- Jumbotron -->
+
+<title>Barbequeue - Pilih Merchant</title>
 <div class="page-wrapper">
   <div class="jumbotron2 jumbotron-fluid">
     <div class="search">
