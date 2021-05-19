@@ -43,8 +43,9 @@
     <!-- End Panel -->
 
       
-
+      <div class="row">
       @foreach($bidang as $bidang)
+      
       <div class="col-md-3 mb-3 ">
         <div class="card " style="width: 13rem">
           <div class="gambar">
@@ -61,6 +62,7 @@
       </div>
     
     @endforeach
+    </div>
   </div>
   
   <div class="page-wrapper">
