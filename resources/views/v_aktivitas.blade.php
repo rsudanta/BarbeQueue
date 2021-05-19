@@ -5,6 +5,7 @@
 @endsection
 
 @section('isi_page')
+<title>Barbequeue - Aktivitas</title>
     <div class="page-wrapper">
         <div class="jumbotron2">
             <div class="container">

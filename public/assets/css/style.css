@@ -215,6 +215,10 @@ input[type="submit"]:hover {
     margin-left: 50px;
 }
 
+.col-md-3 {
+    margin-top: 50px;
+}
+
 /* Masih form register, Clear floats after the columns */
 .row:after {
     content: "";

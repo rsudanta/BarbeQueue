@@ -42,10 +42,10 @@
     </div>
     <!-- End Panel -->
 
+      
 
-    <div class="row daftar">
       @foreach($bidang as $bidang)
-      <div class="col-md-3 mb-3">
+      <div class="col-md-3 mb-3 ">
         <div class="card " style="width: 13rem">
           <div class="gambar">
             <a href="{{route('user_merchant',$bidang->id)}}">
@@ -59,12 +59,10 @@
           </div>
         </div>
       </div>
-    </div>
+    
     @endforeach
-
-
   </div>
-  <div class="page-wrapper">
+  
 
     <!-- End Container -->
     @endsection
