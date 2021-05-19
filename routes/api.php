@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Bidang;
 use App\Models\DetailMerchant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -16,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/merchant',function(){
     return DetailMerchant::all();
+});
+Route::get('/bidang',function(){
+    return Bidang::all();
 });
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

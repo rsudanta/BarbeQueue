@@ -2,10 +2,12 @@
  
 namespace App\Http\Controllers;
 
+use App\Models\Antrian;
 use App\Models\Bidang;
 use App\Models\DetailMerchant;
 use Illuminate\Http\Request;
- 
+use Illuminate\Support\Facades\Auth;
+
 class UserController extends Controller
 {
     public function index()
@@ -39,8 +41,11 @@ class UserController extends Controller
     }
     public function aktivitas()
     {
-        return view('v_aktivitas', [
-            
+        $ongoing = Antrian::where('user_id',Auth::id())->where('status','On Going')->orWhere('status','Waiting')->get();
+        $done = Antrian::where('user_id',Auth::id())->where('status','Done')->orWhere('status','Expired')->get();
+        return view('v_aktivitas',[
+            'ongoing'=>$ongoing,
+            'done'=>$done
         ]);
     }
 
