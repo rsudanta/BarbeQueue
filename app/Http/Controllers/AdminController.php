@@ -14,7 +14,7 @@ class AdminController extends Controller
     {
         $user = User::where('roles', 'MERCHANT')->get();
         $bidang = Bidang::get();
-
+        
         return view('v_dashboardadmin', [
             'user' => $user,
             'bidang' => $bidang
