@@ -6,7 +6,7 @@
 
 @section('isi_page')
 <!-- Jumbotron -->
-
+<title>Barbequeue - Dashboard</title>
 <div class="page-wrapper">
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
@@ -63,6 +63,6 @@
     @endforeach
   </div>
   
-
+  <div class="page-wrapper">
     <!-- End Container -->
     @endsection
