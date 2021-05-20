@@ -1,5 +1,7 @@
 @extends('templates.master')
 
+@section('title','Dashboard')
+
 @section('header')
 @include('templates.header1')
 @endsection
@@ -47,7 +49,7 @@
       @foreach($bidang as $bidang)
       
       <div class="col-md-3 mb-3 ">
-        <div class="card " style="width: 13rem">
+        <div class="card " style="max-width: 13rem">
           <div class="gambar">
             <a href="{{route('user_merchant',$bidang->id)}}">
               <img src="/storage/foto/{{$bidang->foto_bidang}}" class="card-img-top" alt="toko1" />

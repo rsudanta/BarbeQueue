@@ -1,5 +1,7 @@
 @extends('templates.master')
 
+@section('title','Dashboard Admin')
+
 @section('header')
 @include('templates.header1')
 @endsection

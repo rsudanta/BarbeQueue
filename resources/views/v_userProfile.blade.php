@@ -1,7 +1,9 @@
 @extends('templates.master')
 
+@section('title','User Profile')
+
 @section('header')
-    @include('templates.header2')
+    @include('templates.header1')
 @endsection
 
 @section('isi_page')

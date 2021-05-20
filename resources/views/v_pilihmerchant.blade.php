@@ -1,13 +1,14 @@
 @extends('templates.master')
 
+@section('title','Pilih Merchant')
+
 @section('header')
-@include('templates.header2')
+@include('templates.header1')
 @endsection
 
 @section('isi_page')
 <!-- Jumbotron -->
 
-<title>Barbequeue - Pilih Merchant</title>
 <div class="page-wrapper">
   <div class="jumbotron2 jumbotron-fluid">
     <div class="search">

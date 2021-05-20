@@ -28,8 +28,10 @@
                     </a>
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="copyright">
-            <p style="margin-top:24px">&copy 2021 BarbeQueue | Danta’s Angels . All Right Reserved</p>    
+                <p style="margin-top:24px">&copy 2021 BarbeQueue | Danta’s Angels . All Right Reserved</p>    
             </div>
         </div>
 </div>

@@ -138,3 +138,8 @@ p.txt-activity2{
     width:100%;
     max-height: 246px;
 }
+.error-msg{
+    color: firebrick;
+    margin-top: 10px;
+    font-size: 12px;
+}

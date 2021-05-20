@@ -17,6 +17,10 @@
                     <a href="{{route('login')}}" class="mt-4 btn btn-barbequeue">
                         <p>Login</p>
                     </a>
+                    <!--
+                    <a href="{{ url('logout') }}" class="mt-4 btn btn-barbequeue">
+                        <p>Logout</p>
+                    </a>-->
                 </div>
                 <div class="col-6 hehe">
                 <!-- <img src="{{asset('assets/images/hero.png')}}" alt=""> -->
@@ -26,7 +30,7 @@
     </div>
 
 
-    <section class="section-about">
+    <section class="section-about" id="tentang">
         <div class="container">
             <h1 class="text-center">Tentang Kami</h1>
             <p class="pt-4">BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah sebuah aplikasi
@@ -39,7 +43,7 @@
     </section>
 
 
-    <section class="section-carakerja">
+    <section class="section-carakerja" id="caraKerja">
         <div class="container">
             <h1 class="text-center">Cara Kerja</h1>
             <p class="pt-4">BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah sebuah aplikasi
@@ -70,7 +74,7 @@
         </div>
     </section>
 
-    <section class="section-testimoni">
+    <section class="section-testimoni" id="testimoni">
         <div class="container">
             <h1 class="text-center">Testimonial</h1>
             <div class="splide">

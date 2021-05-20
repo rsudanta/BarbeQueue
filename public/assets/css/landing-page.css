@@ -151,7 +151,6 @@ section h1 {
     position: absolute;
     height: 2px;
     width: 90%;
-    margin-top: 15%;
     margin-left: 2%;
 
     background: #8fbf8d;
@@ -162,4 +161,16 @@ section h1 {
     text-align: left;
 
     color: #ffffff;
+}
+.btn-dashboard{
+    background: #263825;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    line-height: 30px;
+    min-width: 150px;
+    cursor: pointer;
+}
+.btn-dashboard:hover{
+    background: #8fbf8d;;
 }

@@ -1,5 +1,7 @@
 @extends('templates.master')
 
+@section('title','Register')
+
 @section('header')
 @include('templates.header2')
 @endsection

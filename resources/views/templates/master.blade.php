@@ -15,6 +15,7 @@
   <link rel="stylesheet" type ="text/css" href="{{ asset('assets/images')}}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel = "icon" href="{{ asset('assets/images/logodanta.png')}}" type = "image/x-icon">
 </head>
 <body>
     @yield('header')

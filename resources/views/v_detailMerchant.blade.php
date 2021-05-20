@@ -1,7 +1,9 @@
 @extends('templates.master')
 
+@section('title','Add Detail Merchant')
+
 @section('header')
-@include('templates.header2')
+@include('templates.header1')
 @endsection
 
 @section('isi_page')
@@ -66,7 +68,7 @@
                     <input type="text" class="form-control" name="no_telp" required>
                 </div>
             </div>
-            <div class="form-group row">
+            <div class="form-group row" style="margin-top:0">
                 <label class="col-md-5 col-form-label text-md-left">{{ __('Estimasi Waktu/Antrian') }}</label>
 
                 <div class="col-md-3">
