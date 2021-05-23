@@ -29,7 +29,7 @@
       <div class="statusan">
         <h class="txt-detailM">Antrian Saat Ini</h>
         <div class="col-md-2 no">
-          <textarea class="form-control form-log" name=tentang rows="1" cols="7" required></textarea>
+          <area class="form-control form-log"  ></area>
         </div>
       </div>
 
