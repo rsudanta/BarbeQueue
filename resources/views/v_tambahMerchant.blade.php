@@ -31,7 +31,7 @@
                 <label class="col-md-4 col-form-label text-md-left">{{ __('Merchant Name') }}</label>
 
                 <div class="col-md-8">
-                    <input type="text" class="form-control form-reg" name="name"  autofocus placeholder="Merchant Name">
+                    <input type="text" class="form-control form-reg" style="width:400px" name="name"  autofocus placeholder="Merchant Name">
                 </div>
             </div>
             <div class="form-group row">
@@ -45,14 +45,14 @@
                 <label class="col-md-4 col-form-label text-md-left">{{ __('Password') }}</label>
 
                 <div class="col-md-8">
-                <input id="password" type="password" class="form-control form-reg @error('password') is-invalid @enderror" placeholder="Password" name="password"  autocomplete="new-password">
+                <input id="password" type="password" minlength="8" class="form-control form-reg @error('password') is-invalid @enderror" placeholder="Password" name="password"  autocomplete="new-password">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-4 col-form-label text-md-left">{{ __('Confirm Password') }}</label>
 
                 <div class="col-md-8">
-                <input id="password-confirm" type="password" class="form-control form-reg" placeholder="Re-write Password" name="password_confirmation"  autocomplete="new-password">
+                <input id="password-confirm" type="password" minlength="8" class="form-control form-reg" placeholder="Re-write Password" name="password_confirmation"  autocomplete="new-password">
                 </div>
             </div>
             <input type="hidden" value="MERCHANT" name="roles"  autofocus placeholder="Merchant Name">

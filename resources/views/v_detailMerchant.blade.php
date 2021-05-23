@@ -68,39 +68,45 @@
                     <input type="text" class="form-control" name="no_telp" required>
                 </div>
             </div>
-            <div class="form-group row" style="margin-top:0">
+            <div class="form-group row">
                 <label class="col-md-5 col-form-label text-md-left">{{ __('Estimasi Waktu/Antrian') }}</label>
+                
+                <div class="row" style="padding-left:15px">
+                    <div class="col-md-5">
+                        <input type="number" min="0" class="form-control form-log" name="estimasi_waktu" required>
+                    </div>
 
-                <div class="col-md-3">
-                    <input type="number" class="form-control form-log" name="estimasi_waktu" required>
-                </div>
-
-                <div class="col-md-3">
-                    <label>Menit</label>
+                    <div class="col-md-4">
+                        <label>Menit</label>
+                    </div>
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-5 col-form-label text-md-left">{{ __('Jumlah Antrian/Hari') }}</label>
 
-                <div class="col-md-3">
-                    <input type="number" class="form-control form-log" name="jumlah_antrian" required>
-                </div>
+                <div class="row" style="padding-left:15px">
+                    <div class="col-md-5">
+                        <input type="number" min="0" class="form-control form-log" name="jumlah_antrian" required>
+                    </div>
 
-                <div class="col-md-3">
-                    <label>Antrian</label>
+                    <div class="col-md-4">
+                        <label>Antrian</label>
+                    </div>
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-5 col-form-label text-md-left">{{ __('Jam Buka/Tutup') }}</label>
 
-                <div class="col-md-3">
-                    <input type="time" class="form-control form-log" name="jam_buka" required>
-                </div>
-                <div class="col-md-1" style="text-align:right">
-                    <label>-</label>
-                </div>
-                <div class="col-md-3">
-                    <input type="time" class="form-control form-log" name="jam_tutup" required>
+                <div class="row" style="padding-left:15px">
+                    <div class="col-md-5">
+                        <input type="time" class="form-control form-log" name="jam_buka" required>
+                    </div>
+                    <div class="col-md-2" style="text-align:right">
+                        <label>-</label>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="time" class="form-control form-log" name="jam_tutup" required>
+                    </div>
                 </div>
             </div>
             <div class="form-group row">

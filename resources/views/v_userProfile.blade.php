@@ -18,6 +18,7 @@
     <div class="container cont-userProfile">
         <div class="txt-path">
             <a href="{{route('user_dashboard')}}" style="color: #000000">Dashboard </a>
+            <a href="#" style="color: #000000">My Profile </a>
         </div>
         <img src="/storage/foto/{{Auth::user()->foto_user}}" class="img-userProfile" alt="ProfilePic">
         <form method="POST" action="{{route('user_update', Auth::user()->id)}}" enctype="multipart/form-data">
