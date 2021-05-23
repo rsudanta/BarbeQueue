@@ -27,8 +27,10 @@ Route::prefix('user')
         Route::get('/merchant/{id}','UserController@show')->name('user_merchant');
         Route::get('/merchant/detail/{id}','UserController@merchant')->name('user_merchant_detail');
         Route::post('/merchant/detail/{id}','AntrianController@store')->name('antrian_store');
-        Route::get('/userProfile','UserController@profil')->name('user_profile');
+        Route::get('/user-profile','UserController@profil')->name('user_profile');
+        Route::post('/user-profile/{id}','UserController@update')->name('user_update');
         Route::get('/user-activity','UserController@aktivitas')->name('user_activity');
+        Route::post('/change-password','UserController@changePassword')->name('changePassword');
     });
 
 Route::prefix('admin')

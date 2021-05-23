@@ -41,8 +41,8 @@
                             <p class="card-textA">Antrian Saya</p>
                             <p class="card-text1A">{{$ongoing->no_antrian}}</p>
 
-                            <p class="card-textA">Estimasi Waktu</p>
-                            <p class="card-text1A">Sekarang</p>
+                            <p class="card-textA">Antrian Sekarang</p>
+                            <p class="card-text1A">{{$ongoing->antrian_sekarang->no_antrian_sekarang}}</p>
                         </div>
                     </div>
                 </div>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Antrian;
+use App\Models\StatusAntrian;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -20,15 +21,26 @@ class AntrianController extends Controller
             $status = "Waiting";
         }
 
+        $id_status = StatusAntrian::where('merchant_id', $id)->value('id');
+
         $user_id = Auth::user()->id;
         $data = [
             'user_id' => $user_id,
             'merchant_id' => $id,
             'no_antrian' => $no_antrian,
+            'antrian_sekarang_id' => $id_status,
             'status' => $status
         ];
 
         Antrian::create($data);
+
+        $no_antrian_sekarang = Antrian::where('merchant_id', $id)->where('status', 'On Going')->value('no_antrian');
+        $id_status_antrian =  StatusAntrian::where('merchant_id', $id)->value('id');
+        $status_antrian = StatusAntrian::findOrFail($id_status_antrian);
+        $status_antrian->update([
+            'no_antrian_sekarang' => $no_antrian_sekarang
+        ]);
+
         return redirect()->route('user_activity');
     }
 
@@ -47,8 +59,21 @@ class AntrianController extends Controller
         $check = Antrian::where('status', 'Waiting')->count();
         $antri = Antrian::findOrFail($id);
         $antri->update($done);
-        if($check>0){
+        if ($check > 0) {
             $first->update($new);
+        }
+
+        $merch_id = Antrian::where('id',$id)->value('merchant_id');
+
+        $check_status = Antrian::where('status', 'On Going')->get()->count();
+
+        if($check_status >0 ){
+            $no_antrian_sekarang = Antrian::where('merchant_id', $merch_id)->where('status', 'On Going')->value('no_antrian');
+            $id_status_antrian =  StatusAntrian::where('merchant_id', $merch_id)->value('id');
+            $status_antrian = StatusAntrian::findOrFail($id_status_antrian);
+            $status_antrian->update([
+                'no_antrian_sekarang' => $no_antrian_sekarang
+            ]);
         }
 
         return redirect()->route('merchant_dashboard');
@@ -69,8 +94,21 @@ class AntrianController extends Controller
         $check = Antrian::where('status', 'Waiting')->count();
         $antri = Antrian::findOrFail($id);
         $antri->update($expire);
-        if($check>0){
+        if ($check > 0) {
             $first->update($new);
+        }
+
+        $merch_id = Antrian::where('id',$id)->value('merchant_id');
+
+        $check_status = Antrian::where('status', 'On Going')->get()->count();
+
+        if($check_status >0 ){
+            $no_antrian_sekarang = Antrian::where('merchant_id', $merch_id)->where('status', 'On Going')->value('no_antrian');
+            $id_status_antrian =  StatusAntrian::where('merchant_id', $merch_id)->value('id');
+            $status_antrian = StatusAntrian::findOrFail($id_status_antrian);
+            $status_antrian->update([
+                'no_antrian_sekarang' => $no_antrian_sekarang
+            ]);
         }
 
         return redirect()->route('merchant_dashboard');

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Antrian;
 use App\Models\DetailMerchant;
+use App\Models\StatusAntrian;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -14,9 +15,11 @@ class MerchantController extends Controller
     {
         $ongoing =Antrian::where('merchant_id', Auth::user()->merchant->id)->where('status','On Going')->first();
         $waitings=Antrian::where('merchant_id', Auth::user()->merchant->id)->where('status','Waiting')->get();
+        $antrian= StatusAntrian::where('merchant_id', Auth::user()->merchant->id)->first();
         return view('v_dashmerchantantri',[
             'waitings'=>$waitings,
-            'ongoing'=>$ongoing
+            'ongoing'=>$ongoing,
+            'antrian'=>$antrian
         ]);
     }
 

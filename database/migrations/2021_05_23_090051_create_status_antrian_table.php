@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAntrianTable extends Migration
+class CreateStatusAntrianTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,11 @@ class CreateAntrianTable extends Migration
      */
     public function up()
     {
-        Schema::create('antrian', function (Blueprint $table) {
+        Schema::create('status_antrian', function (Blueprint $table) {
             $table->id();
-            $table->integer('user_id');
-            $table->integer('merchant_id');
-            $table->integer('antrian_sekarang_id')->nullable();
-            $table->integer('no_antrian');
-            $table->string('status');
             $table->timestamps();
+            $table->integer('merchant_id');
+            $table->integer('no_antrian_sekarang');
         });
     }
 
@@ -31,6 +28,6 @@ class CreateAntrianTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('antrian');
+        Schema::dropIfExists('status_antrian');
     }
 }

@@ -29,7 +29,7 @@
       <div class="statusan">
         <h class="txt-detailM">Antrian Saat Ini</h>
         <div class="col-md-2 no">
-          <textarea class="form-control form-log" name=tentang rows="1" cols="7" required></textarea>
+          <p class="form-log text-center" >{{$antrian->no_antrian_sekarang}}</p>
         </div>
       </div>
 

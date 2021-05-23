@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Antrian;
 use App\Models\Bidang;
 use App\Models\DetailMerchant;
+use App\Models\StatusAntrian;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -23,10 +25,16 @@ class AdminController extends Controller
 
     public function destroy_bidang($id)
     {
+        $user_id = DetailMerchant::where('bidang_id',$id)->pluck('user_id');
+        $merch_id = DetailMerchant::where('bidang_id',$id)->pluck('id');
+        User::whereIn('id', $user_id)->delete();
+        StatusAntrian::whereIn('merchant_id', $merch_id)->delete();
+        Antrian::whereIn('merchant_id', $merch_id)->delete();
+        DetailMerchant::where('bidang_id',$id)->delete();
+
         $item = Bidang::findOrFail($id);
         $item->delete();
 
-        DetailMerchant::where('bidang_id',$id)->delete();
 
         return redirect()->route('admin_dashboard');
     }
@@ -43,6 +51,10 @@ class AdminController extends Controller
                 'count' => $count - 1
             ]
         );
+
+        $merch_id = DetailMerchant::where('user_id',$id)->pluck('id');
+        Antrian::whereIn('merchant_id', $merch_id)->delete();
+        StatusAntrian::whereIn('merchant_id', $merch_id)->delete();
 
         $detail = DetailMerchant::where('user_id', $id);
         $detail->delete();
