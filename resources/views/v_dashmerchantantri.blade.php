@@ -29,7 +29,11 @@
       <div class="statusan">
         <h class="txt-detailM">Antrian Saat Ini</h>
         <div class="col-md-2 no">
+<<<<<<< HEAD
           <p class="form-log text-center" >{{$antrian->no_antrian_sekarang}}</p>
+=======
+          <area class="form-control form-log"  ></area>
+>>>>>>> daf23a39b8230166694a3aad1ce57a3c5accac41
         </div>
       </div>
 

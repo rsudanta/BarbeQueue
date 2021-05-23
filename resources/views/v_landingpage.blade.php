@@ -31,14 +31,9 @@
 
 
     <section class="section-about" id="tentang">
-        <div class="container">
-            <h1 class="text-center">Tentang Kami</h1>
-            <p class="pt-4">BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah sebuah aplikasi
-                online yang
-                menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah sebuah aplikasi
-                online yang menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah
-                sebuah aplikasi online yang menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan
-                BarbeQueue adalah sebuah aplikasi online yang menyediakan</p>
+        <div class="container tentangb">
+            <h1 class="text-center tengahh">Tentang Kami</h1>
+            <p class="pt-4">BarbeQueue adalah sebuah aplikasi antrian online yang akan sangat membantu anda untuk melakukan antrian dengan cepat, efisien, dan efektif tanpa harus datang ke lokasi merchant. BarbeQueue hadir untuk menemani anda dalam melakukan aktivitas sehari-hari tanpa harus menghabiskan waktu untuk mengantri di lokasi. Anda dapat mengambil nomor antrian di rumah dan datang ke lokasi disaat nomor antrian yang anda mliki sudah dekat.</p>
         </div>
     </section>
 
@@ -46,9 +41,7 @@
     <section class="section-carakerja" id="caraKerja">
         <div class="container">
             <h1 class="text-center">Cara Kerja</h1>
-            <p class="pt-4">BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah sebuah aplikasi
-                online yang menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah
-                sebuah aplikasi online yang menyediakan </p>
+            <p class="pt-4 text-center">BarbeQueue dapat digunakan dengan mudah dengan hanya mengikuti beberapa langkah berikut ini: </p>
             <div class="row pt-5">
                 <div class="col-3">
                     <div class="card">
@@ -83,19 +76,13 @@
                         <li class="splide__slide">
                             <div class="card">
                                 <div class="row">
-                                    <div class="col-6">
-                                        <img src="{{asset('assets/images/shalvina.png')}}" alt="">
+                                    <div class="col-5">
+                                        <img src="{{asset('assets/images/shalvina.png')}}" alt="" class="shal">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-7">
                                         <img src="{{asset('assets/images/Bintang.png')}}" alt="">
-                                        <p class="pt-4">“ INI BAGIAN TESTIMONIAL BarbeQueue adalah sebuah aplikasi online yang
-                                            menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan
-                                            BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah
-                                            sebuah aplikasi online yang menyediakan BarbeQueue adalah sebuah aplikasi
-                                            online yang menyediakan BarbeQueue adalah sebuah aplikasi online yang
-                                            menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan
-                                            BarbeQueue adalah sebuah aplikasi online yang menyediakan.”
-
+                                        <p class="pt-4 text-justify">“Saya sering sekali menggunakan aplikasi BarbeQueue ini untuk mengambil nomor antrian di salah satu merchant kecantikan dekat rumah saya. Saya senang sekali karena dengan adanya BarbeQueue, saya benar-benar bisa mengefektifkan waktu yang saya miliki. Sudah dipastikan semua orang sangat membutuhkan aplikasi BarbeQueue ini untuk mengambil nomor antrian dalam aktivitas sehari-hari.”
+                                        <br><br>
                                             - Shalvina Zahwa Aulia</p>
                                     </div>
                                 </div>
@@ -104,19 +91,13 @@
                         <li class="splide__slide">
                             <div class="card">
                                 <div class="row">
-                                    <div class="col-6">
-                                        <img src="{{asset('assets/images/shalvina.png')}}" alt="">
+                                    <div class="col-5">
+                                        <img src="{{asset('assets/images/shalvina.png')}}" alt="" class="shal">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-7">
                                         <img src="{{asset('assets/images/Bintang.png')}}" alt="">
-                                        <p class="pt-4">“ INI BAGIAN TESTIMONIAL BarbeQueue adalah sebuah aplikasi online yang
-                                            menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan
-                                            BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah
-                                            sebuah aplikasi online yang menyediakan BarbeQueue adalah sebuah aplikasi
-                                            online yang menyediakan BarbeQueue adalah sebuah aplikasi online yang
-                                            menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan
-                                            BarbeQueue adalah sebuah aplikasi online yang menyediakan.”
-
+                                        <p class="pt-4 text-justify">“Saya sering sekali menggunakan aplikasi BarbeQueue ini untuk mengambil nomor antrian di salah satu merchant kecantikan dekat rumah saya. Saya senang sekali karena dengan adanya BarbeQueue, saya benar-benar bisa mengefektifkan waktu yang saya miliki. Sudah dipastikan semua orang sangat membutuhkan aplikasi BarbeQueue ini untuk mengambil nomor antrian dalam aktivitas sehari-hari.”
+                                        <br><br>
                                             - Shalvina Zahwa Aulia</p>
                                     </div>
                                 </div>
@@ -125,19 +106,13 @@
                         <li class="splide__slide">
                             <div class="card">
                                 <div class="row">
-                                    <div class="col-6">
-                                        <img src="{{asset('assets/images/shalvina.png')}}" alt="">
+                                    <div class="col-5">
+                                        <img src="{{asset('assets/images/shalvina.png')}}" alt="" class="shal">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-7">
                                         <img src="{{asset('assets/images/Bintang.png')}}" alt="">
-                                        <p class="pt-4">“ INI BAGIAN TESTIMONIAL BarbeQueue adalah sebuah aplikasi online yang
-                                            menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan
-                                            BarbeQueue adalah sebuah aplikasi online yang menyediakan BarbeQueue adalah
-                                            sebuah aplikasi online yang menyediakan BarbeQueue adalah sebuah aplikasi
-                                            online yang menyediakan BarbeQueue adalah sebuah aplikasi online yang
-                                            menyediakan BarbeQueue adalah sebuah aplikasi online yang menyediakan
-                                            BarbeQueue adalah sebuah aplikasi online yang menyediakan.”
-
+                                        <p class="pt-4 text-justify">“Saya sering sekali menggunakan aplikasi BarbeQueue ini untuk mengambil nomor antrian di salah satu merchant kecantikan dekat rumah saya. Saya senang sekali karena dengan adanya BarbeQueue, saya benar-benar bisa mengefektifkan waktu yang saya miliki. Sudah dipastikan semua orang sangat membutuhkan aplikasi BarbeQueue ini untuk mengambil nomor antrian dalam aktivitas sehari-hari.”
+                                        <br><br>
                                             - Shalvina Zahwa Aulia</p>
                                     </div>
                                 </div>

@@ -30,7 +30,7 @@ body {
 }
 
 .container-fluid {
-    background: url('/assets/images/hero.png') top right no-repeat;
+    background: url("/assets/images/hero.png") top right no-repeat;
     height: 775px;
 }
 
@@ -162,7 +162,7 @@ section h1 {
 
     color: #ffffff;
 }
-.btn-dashboard{
+.btn-dashboard {
     background: #263825;
     color: #ffffff;
     border-radius: 10px;
@@ -171,6 +171,19 @@ section h1 {
     min-width: 150px;
     cursor: pointer;
 }
-.btn-dashboard:hover{
-    background: #8fbf8d;;
+.btn-dashboard:hover {
+    background: #8fbf8d;
+}
+
+.tentangb .tengahh {
+    margin-top: 200px;
+}
+
+.tentangb .pt-4 {
+    margin-top: 50px;
+}
+
+.section-testimoni .shal {
+    margin-top: 18px;
+    margin-left: 80px;
 }
