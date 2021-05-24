@@ -28,10 +28,11 @@
                             <p>Kontak</p>
                         </a>
                     </li>
-                    <!--
+                    @auth
                     <li class="nav-item">
                         <button href="{{route('user_dashboard')}}" class="btn-dashboard">Dashboard</button>
-                    </li>-->
+                    </li>
+                    @endauth
                 </ul>
             </div>
             </div>

@@ -13,14 +13,17 @@
                     
                     <h1 class="title">BarbeQueue
                     </h1>
+                    @guest
                     <p>Aplikasi Antrian Online</p>
                     <a href="{{route('login')}}" class="mt-4 btn btn-barbequeue">
                         <p>Login</p>
                     </a>
-                    <!--
+                    @endguest
+                    @auth
                     <a href="{{ url('logout') }}" class="mt-4 btn btn-barbequeue">
                         <p>Logout</p>
-                    </a>-->
+                    </a>
+                    @endauth
                 </div>
                 <div class="col-6 hehe">
                 <!-- <img src="{{asset('assets/images/hero.png')}}" alt=""> -->
