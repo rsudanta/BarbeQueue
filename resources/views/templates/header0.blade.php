@@ -30,7 +30,7 @@
                     </li>
                     @auth
                     <li class="nav-item">
-                        <button href="{{route('user_dashboard')}}" class="btn-dashboard">Dashboard</button>
+                        <button href="{{route('merchant_dashboard')}}" class="btn-dashboard">Dashboard</button>
                     </li>
                     @endauth
                 </ul>
