@@ -16,8 +16,8 @@
         <div class="container cont-antrian">
             <div class="txt-path">
                 <a href="{{route('user_dashboard')}}" style="color: #000000">Dashboard ></a>
-                <a href="{{route('user_merchant')}}" style="color: #000000">Merchant ></a>
-                <a href="{{route('user_merchant_detail')}}" style="color: #000000">K-Marttt ></a>
+                <a href="{{route('user_merchant',$items->bidang_id)}}" style="color: #000000">Merchant ></a>
+                <a href="{{route('user_merchant_detail')}}" style="color: #000000">{{$items->user->name}}</a>
                 <a href="{{route('user_ambilAntrian')}}" style="color: #000000">Antrian Info</a>
             </div>
             <h class="txt-antrianinfo">Antrian Info</h>

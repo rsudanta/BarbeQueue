@@ -14,7 +14,7 @@
     <div class="container cont-dMerchant">
         <div class="txt-path">
             <a href="{{route('user_dashboard')}}" style="color: #000000">Dashboard ></a>
-            <a href="#" style="color: #000000">Merchant ></a>
+            <a href="{{route('user_merchant',$items->bidang_id)}}" style="color: #000000">Merchant ></a>
             <a style="color: #000000">{{$items->user->name}}</a>
         </div>
         <p class="txt-merchantName">{{$items->user->name}}</p>

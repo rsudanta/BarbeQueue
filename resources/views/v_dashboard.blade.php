@@ -52,10 +52,10 @@
         <div class="card " style="max-width: 13rem">
           <div class="gambar">
             <a href="{{route('user_merchant',$bidang->id)}}">
-              <img src="/storage/foto/{{$bidang->foto_bidang}}" class="card-img-top" alt="toko1" />
+              <img src="/storage/foto/{{$bidang->foto_bidang}}" class="card-img-top" alt="toko1"/>
             </a>
           </div>
-          <div class="card-body ">
+          <div class="card-body">
             <p class="card-title">{{$bidang->nama_bidang}}</p>
             <p class="card-text">{{$bidang->deskripsi_bidang}}</p>
             <p class="card-text1">{{$bidang->count}} Stores Available</p>

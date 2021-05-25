@@ -25,11 +25,6 @@
                         <strong>{{ $message }}</strong>
                     </span>
                     @enderror
-                    @if ($errors->has('email'))
-                        <span class="help-block error-msg">
-                            <strong>{{ $errors->first('email') }}</strong>
-                        </span>
-                    @endif
                 </div>
             </div>
             <div class="row" style="margin-top:20px">
@@ -43,11 +38,16 @@
                         <strong>{{ $message }}</strong>
                     </span>
                     @enderror
-                    @if ($errors->has('password'))
-                        <span class="help-block error-msg">
-                            <strong>{{ $errors->first('password') }}</strong>
+
+                    
+                    @if ($errors->has('email') or $errors->has('password'))
+                    <div class="row error-msg">
+                        <span class="help-block">
+                            <strong>{{ $errors->first('email') }}</strong>
                         </span>
+                    </div>
                     @endif
+
                 </div>
             </div>
 

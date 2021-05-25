@@ -110,7 +110,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #8fbf8d;
 }
 
 .box-register {
@@ -293,7 +293,7 @@ p.txt-merchantName {
     cursor: pointer;
 }
 .btn-ambilAntrian:hover {
-    background-color: #45a049;
+    background-color: #8fbf8d;
 }
 
 /* Dashboard */
@@ -301,6 +301,7 @@ p.txt-merchantName {
 .card {
     border-radius: 20px;
     box-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
+    max-height: 320px;
 }
 
 .card-title {

@@ -1,6 +1,6 @@
 
 
-<div class="container-fluid footerBbq">
+<div class="container-fluid footerBbq" id="footer">
         <div class="row">
             <div class="col-sm-8">
              <a style="font-family:Passion One; font-size:64px">
