@@ -13,7 +13,7 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h2 class="display-4">
-        Hi, {{Auth::User()->name}},
+        Hi, {{Auth::User()->name}}
       </h2>
 
       <p class="display-5">

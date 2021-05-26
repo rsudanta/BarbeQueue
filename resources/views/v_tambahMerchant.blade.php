@@ -31,14 +31,14 @@
                 <label class="col-md-4 col-form-label text-md-left">{{ __('Merchant Name') }}</label>
 
                 <div class="col-md-8">
-                    <input type="text" class="form-control form-reg" style="width:400px" name="name"  autofocus placeholder="Merchant Name">
+                    <input type="text" class="form-control form-reg" style="width:400px" name="name" value="{{ old('name') }}"  autofocus placeholder="Merchant Name">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-4 col-form-label text-md-left">{{ __('Email Merchant') }}</label>
 
                 <div class="col-md-8">
-                    <input type="email" class="form-control form-reg" name="email"  autofocus  placeholder="Email Merchant">
+                    <input type="email" class="form-control form-reg" name="email" value="{{ old('email') }}" autofocus  placeholder="Email Merchant">
                 </div>
             </div>
             <div class="form-group row">

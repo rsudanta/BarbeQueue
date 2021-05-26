@@ -44,15 +44,15 @@
     </div>
     <!-- End Panel -->
 
-      
-      <div class="row">
-      @foreach($bidang as $bidang)
-      
+
+    <div class="row">
+      @forelse($bidang as $bidang)
+
       <div class="col-md-3 mb-3 ">
         <div class="card " style="max-width: 13rem">
           <div class="gambar">
             <a href="{{route('user_merchant',$bidang->id)}}">
-              <img src="/storage/foto/{{$bidang->foto_bidang}}" class="card-img-top" alt="toko1"/>
+              <img src="/storage/foto/{{$bidang->foto_bidang}}" class="card-img-top" alt="toko1" />
             </a>
           </div>
           <div class="card-body">
@@ -62,11 +62,14 @@
           </div>
         </div>
       </div>
-    
-    @endforeach
+      @empty
+      <div class="col-12">
+        <h5 class="pt-5 pb-5 text-center">Belum terdapat data bidang pada Aplikasi</h5>
+      </div>
+      @endforelse
     </div>
   </div>
-  
+
   <div class="page-wrapper">
     <!-- End Container -->
     @endsection

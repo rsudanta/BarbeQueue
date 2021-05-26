@@ -14,7 +14,7 @@
     <div class="search">
       <form>
         <input type="text" name="search" class="cari">
-        <a href=""><img src="{{asset('assets/images/search.png')}}" alt=""></a>
+        <a><img src="{{asset('assets/images/search.png')}}" alt=""></a>
       </form>
 
     </div>
@@ -32,7 +32,7 @@
     </section>
 
     <div class="row daftar">
-      @foreach($items as $item)
+      @forelse($items as $item)
       <div class="col-md-3 mb-3">
         <div class="card " style="width: 13rem">
           <div class="gambar">
@@ -46,11 +46,12 @@
           </div>
         </div>
       </div>
-      @endforeach
+      @empty
+      <div class="col-12">
+        <h5 class="text-center">Belum terdapat data merchant pada Aplikasi</h5>
+      </div>
+      @endforelse
     </div>
-
-
-
   </div>
 </div>
 <!-- End Container -->

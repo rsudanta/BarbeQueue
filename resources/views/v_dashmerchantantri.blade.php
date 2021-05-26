@@ -15,7 +15,7 @@
 
     <div class="sidebar">
       <center>
-        <img src="{{asset('assets/images/logo.png')}}" alt="">
+        <img src="/storage/foto/{{Auth::user()->merchant->foto_merchant}}" alt="">
         <h4>{{Auth::user()->name}} </h4>
       </center>
       <a href=""><i class="fas fa-home"></i><span> Status Antrian</span></a>

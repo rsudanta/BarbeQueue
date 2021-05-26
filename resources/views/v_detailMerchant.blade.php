@@ -58,14 +58,14 @@
                 <label class="col-md-5 col-form-label text-md-left">{{ __('Alamat Toko') }}</label>
 
                 <div class="col-md-7">
-                    <input type="text" class="form-control" name="alamat" required>
+                    <input type="text" class="form-control" name="alamat" required value="{{ old('alamat') }}">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-5 col-form-label text-md-left">{{ __('No. Telp Toko') }}</label>
 
                 <div class="col-md-7">
-                    <input type="text" class="form-control" name="no_telp" required>
+                    <input type="text" class="form-control" name="no_telp" value="{{ old('no_telp') }}" required>
                 </div>
             </div>
             <div class="form-group row">
@@ -73,7 +73,7 @@
                 
                 <div class="row" style="padding-left:15px">
                     <div class="col-md-5">
-                        <input type="number" min="0" class="form-control form-log" name="estimasi_waktu" required>
+                        <input type="number" min="0" class="form-control form-log" name="estimasi_waktu" value="{{ old('estimasi_waktu') }}" required>
                     </div>
 
                     <div class="col-md-4">
@@ -86,7 +86,7 @@
 
                 <div class="row" style="padding-left:15px">
                     <div class="col-md-5">
-                        <input type="number" min="0" class="form-control form-log" name="jumlah_antrian" required>
+                        <input type="number" min="0" class="form-control form-log" name="jumlah_antrian" value="{{ old('jumlah_antrian') }}" required>
                     </div>
 
                     <div class="col-md-4">
@@ -99,13 +99,13 @@
 
                 <div class="row" style="padding-left:15px">
                     <div class="col-md-5">
-                        <input type="time" class="form-control form-log" name="jam_buka" required>
+                        <input type="time" class="form-control form-log" name="jam_buka" value="{{ old('jam_buka') }}" required>
                     </div>
                     <div class="col-md-2" style="text-align:right">
                         <label>-</label>
                     </div>
                     <div class="col-md-5">
-                        <input type="time" class="form-control form-log" name="jam_tutup" required>
+                        <input type="time" class="form-control form-log" name="jam_tutup" value="{{ old('jam_tutup') }}"required>
                     </div>
                 </div>
             </div>
