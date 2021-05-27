@@ -47,22 +47,22 @@
             <p class="pt-4 text-center">BarbeQueue dapat digunakan dengan mudah dengan hanya mengikuti beberapa langkah berikut ini: </p>
             <div class="row pt-5">
                 <div class="col-3">
-                    <div class="card">
+                    <div class="card inner">
                         <img src="{{asset('assets/images/1.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card">
+                    <div class="card inner">
                         <img src="{{asset('assets/images/2.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card">
+                    <div class="card inner">
                         <img src="{{asset('assets/images/3.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card">
+                    <div class="card inner">
                         <img src="{{asset('assets/images/4.png')}}" alt="">
                     </div>
                 </div>

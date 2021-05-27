@@ -1,10 +1,8 @@
-@extends('templates.master')
+@extends('templates.master1')
 
 @section('title','Status Antrian')
 
-@section('header')
-@include('templates.header1')
-@endsection
+
 
 @section('isi_page')
 
@@ -18,6 +16,7 @@
         <img src="/storage/foto/{{Auth::user()->merchant->foto_merchant}}" alt="">
         <h4>{{Auth::user()->name}} </h4>
       </center>
+      <a href="{{route('landing')}}"><i class="fas fa-home"></i><span> Home</span></a>
       <a href=""><i class="fas fa-home"></i><span> Status Antrian</span></a>
       <a href="{{ route('merchant_edit', Auth::user()->id) }}"><i class="fas fa-shopping-cart"></i><span> Edit Merchant</span></a>
       <a href="{{ url('logout') }}"><i class="fas fa-sign-out-alt"></i><span> Logout</span></a>
